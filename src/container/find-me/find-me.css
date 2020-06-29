@@ -1,0 +1,39 @@
+.containerMain {
+  display: flex;
+  margin: 2rem 4rem;
+  align-items: center;
+}
+.tableContainer {
+  width: 45%;
+}
+.maps {
+  width: 200px;
+  height: 200px;
+}
+.leaflet-container {
+  height: 400px;
+  width: 50%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+td {
+  background: white;
+}
+td:nth-child(3) {
+  cursor: pointer;
+}
+th {
+  background: #101038;
+  color: white;
+  text-transform: capitalize;
+}

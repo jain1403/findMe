@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import topStories from './container/topStories/topStories'
+import findMe from './container/find-me/find-me'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/" exact component={topStories}></Route>
+          <Route path="/" exact component={findMe}></Route>
         </Switch>
       </Router>
     </div>
