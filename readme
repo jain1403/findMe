@@ -1,0 +1,6 @@
+Please follow the below steps to run the Application on local.
+
+1. Clone the repo
+2. Run 'npm i' at the project root level
+3. Run 'npm start' at the project root level
+4. Application is running on localhost:3000
