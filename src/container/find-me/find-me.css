@@ -1,18 +1,50 @@
-.containerMain {
+.container {
   display: flex;
-  margin: 2rem 4rem;
+  padding: 2rem 4rem;
   align-items: center;
 }
 .tableContainer {
+  height: 90vh;
   width: 45%;
+}
+.tableStyle{
+  overflow-y: scroll;
+  height: 85vh;
+  overflow-x: hidden;
 }
 .maps {
   width: 200px;
   height: 200px;
 }
+.mapContainer {
+    width: 55%;
+    height: 90vh;
+    margin: 0px 0px 0px 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.topPanel{
+  padding: 10px;
+  margin-bottom: 11px;
+  font-weight: 500;
+}
+.searchBar{
+  border: 1px solid black;
+  width:90%;
+  font-size: 16px;
+}
+
+.countryName {
+  border-radius: 5px;
+  background: #139bff;
+  color: white;
+}
 .leaflet-container {
-  height: 400px;
-  width: 50%;
+  height: 80vh;
+  width: 100%;
+  border: 1px solid black;
 }
 table {
   font-family: arial, sans-serif;
@@ -29,11 +61,11 @@ th {
 td {
   background: white;
 }
-td:nth-child(3) {
-  cursor: pointer;
-}
 th {
   background: #101038;
   color: white;
   text-transform: capitalize;
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }

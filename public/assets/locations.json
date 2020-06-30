@@ -1,1000 +1,4658 @@
-[{"country":"Louisiana","lat":30.0877,"long":-89.8462,"zip":"70129"},
-{"country":"North Dakota","lat":47.9335,"long":-97.3944,"zip":"58207"},
-{"country":"New Jersey","lat":40.702,"long":-74.089,"zip":"07305"},
-{"country":"New Mexico","lat":35.0443,"long":-106.6729,"zip":"87180"},
-{"country":"Oklahoma","lat":35.4794,"long":-97.5017,"zip":"73104"},
-{"country":"Minnesota","lat":44.9806,"long":-93.1771,"zip":"55108"},
-{"country":"Florida","lat":27.6705,"long":-82.7119,"zip":"33715"},
-{"country":"Ohio","lat":40.7911,"long":-81.4169,"zip":"44710"},
-{"country":"California","lat":37.7786,"long":-122.4892,"zip":"94121"},
-{"country":"Florida","lat":30.4478,"long":-84.3211,"zip":"32304"},
-{"country":"Pennsylvania","lat":39.9832,"long":-75.7481,"zip":"19495"},
-{"country":"Florida","lat":26.5747,"long":-80.0794,"zip":"33462"},
-{"country":"Kentucky","lat":37.1376,"long":-84.1156,"zip":"40745"},
-{"country":"Florida","lat":30.1949,"long":-85.6727,"zip":"32405"},
-{"country":"Minnesota","lat":45.1907,"long":-93.3021,"zip":"55448"},
-{"country":"California","lat":34.4329,"long":-119.8371,"zip":"93106"},
-{"country":"California","lat":39.8032,"long":-121.8673,"zip":"95973"},
-{"country":"Massachusetts","lat":41.6913,"long":-70.9355,"zip":"02745"},
-{"country":"Idaho","lat":43.3233,"long":-111.7822,"zip":"83405"},
-{"country":"Texas","lat":31.6948,"long":-106.3,"zip":"88574"},
-{"country":"Pennsylvania","lat":40.4181,"long":-80.0526,"zip":"15220"},
-{"country":"New York","lat":40.8111,"long":-73.9642,"zip":"10115"},
-{"country":"Delaware","lat":39.5645,"long":-75.597,"zip":"19897"},
-{"country":"Missouri","lat":38.6531,"long":-90.2435,"zip":"63150"},
-{"country":"Washington","lat":47.1042,"long":-122.87,"zip":"98506"},
-{"country":"Utah","lat":41.1894,"long":-111.9489,"zip":"84403"},
-{"country":"Tennessee","lat":35.9918,"long":-83.8496,"zip":"37914"},
-{"country":"Ohio","lat":40.0028,"long":-83.0164,"zip":"43210"},
-{"country":"Alabama","lat":32.3834,"long":-86.2434,"zip":"36109"},
-{"country":"Illinois","lat":39.7495,"long":-89.606,"zip":"62776"},
-{"country":"West Virginia","lat":38.2968,"long":-81.5547,"zip":"25321"},
-{"country":"Arizona","lat":33.2765,"long":-112.1872,"zip":"85072"},
-{"country":"Florida","lat":26.6644,"long":-80.1741,"zip":"33411"},
-{"country":"Florida","lat":26.6599,"long":-81.8934,"zip":"33915"},
-{"country":"Virginia","lat":38.8808,"long":-77.113,"zip":"22212"},
-{"country":"California","lat":37.6802,"long":-121.9215,"zip":"94660"},
-{"country":"Ohio","lat":40.7911,"long":-81.4169,"zip":"44710"},
-{"country":"Washington","lat":47.4441,"long":-122.3249,"zip":"98148"},
-{"country":"California","lat":37.7848,"long":-122.7278,"zip":"94142"},
-{"country":"New Jersey","lat":40.43,"long":-74.4173,"zip":"08922"},
-{"country":"Florida","lat":28.5679,"long":-81.3258,"zip":"32813"},
-{"country":"Minnesota","lat":45.1907,"long":-93.3021,"zip":"55448"},
-{"country":"Florida","lat":27.8546,"long":-82.7545,"zip":"33777"},
-{"country":"Texas","lat":33.3934,"long":-94.3404,"zip":"75507"},
-{"country":"Alabama","lat":34.734,"long":-86.5229,"zip":"35815"},
-{"country":"Nevada","lat":39.7699,"long":-119.6027,"zip":"89510"},
-{"country":"Texas","lat":30.4455,"long":-97.6595,"zip":"78764"},
-{"country":"Ohio","lat":39.7982,"long":-84.3211,"zip":"45426"},
-{"country":"Michigan","lat":42.7325,"long":-84.5587,"zip":"48956"},
-{"country":"New Jersey","lat":40.2805,"long":-74.712,"zip":"08650"},
-{"country":"Indiana","lat":41.5968,"long":-86.293,"zip":"46620"},
-{"country":"Iowa","lat":41.6727,"long":-93.5722,"zip":"50305"},
-{"country":"Nevada","lat":39.4814,"long":-119.8591,"zip":"89519"},
-{"country":"North Carolina","lat":35.7977,"long":-78.6253,"zip":"27626"},
-{"country":"Washington","lat":47.4441,"long":-122.3249,"zip":"98148"},
-{"country":"North Carolina","lat":35.7977,"long":-78.6253,"zip":"27635"},
-{"country":"Ohio","lat":41.1075,"long":-81.5006,"zip":"44310"},
-{"country":"New York","lat":42.6149,"long":-73.9708,"zip":"12242"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"93584"},
-{"country":"Georgia","lat":32.8067,"long":-83.6913,"zip":"31296"},
-{"country":"Missouri","lat":38.6128,"long":-90.2185,"zip":"63104"},
-{"country":"Colorado","lat":39.7388,"long":-104.4083,"zip":"80044"},
-{"country":"South Carolina","lat":34.5271,"long":-82.7087,"zip":"29625"},
-{"country":"Louisiana","lat":29.6779,"long":-90.0901,"zip":"70033"},
-{"country":"Louisiana","lat":30.0877,"long":-89.8462,"zip":"70129"},
-{"country":"Washington","lat":47.2484,"long":-122.4644,"zip":"98405"},
-{"country":"Ohio","lat":39.6749,"long":-84.1136,"zip":"45440"},
-{"country":"Ohio","lat":40.854,"long":-81.4278,"zip":"44760"},
-{"country":"Missouri","lat":39.0351,"long":-94.5467,"zip":"64130"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"90050"},
-{"country":"Georgia","lat":33.8444,"long":-84.474,"zip":"30380"},
-{"country":"California","lat":37.3983,"long":-122.0006,"zip":"94089"},
-{"country":"Texas","lat":31.1282,"long":-97.7469,"zip":"76544"},
-{"country":"Texas","lat":31.6403,"long":-97.0963,"zip":"76705"},
-{"country":"California","lat":35.4369,"long":-119.0679,"zip":"93399"},
-{"country":"Kansas","lat":38.9613,"long":-94.8222,"zip":"66220"},
-{"country":"Alaska","lat":61.1872,"long":-149.8804,"zip":"99599"},
-{"country":"North Carolina","lat":35.26,"long":-80.8042,"zip":"28256"},
-{"country":"Florida","lat":27.7391,"long":-82.6435,"zip":"33705"},
-{"country":"Texas","lat":32.7673,"long":-96.7776,"zip":"75277"},
-{"country":"Texas","lat":27.777,"long":-97.4632,"zip":"78465"},
-{"country":"South Dakota","lat":43.6746,"long":-96.7913,"zip":"57193"},
-{"country":"New York","lat":43.286,"long":-77.6843,"zip":"14652"},
-{"country":"Oklahoma","lat":35.6665,"long":-97.4798,"zip":"73034"},
-{"country":"Arkansas","lat":34.8019,"long":-92.1894,"zip":"72231"},
-{"country":"Kentucky","lat":38.2306,"long":-85.7905,"zip":"40210"},
-{"country":"Indiana","lat":39.7795,"long":-86.1328,"zip":"46247"},
-{"country":"District of Columbia","lat":38.905,"long":-77.0162,"zip":"20205"},
-{"country":"Alabama","lat":32.2334,"long":-86.2085,"zip":"36177"},
-{"country":"New Hampshire","lat":42.9521,"long":-71.6539,"zip":"03105"},
-{"country":"California","lat":37.3894,"long":-121.8868,"zip":"95194"},
-{"country":"Nebraska","lat":41.2933,"long":-95.9361,"zip":"68110"},
-{"country":"Hawaii","lat":21.351,"long":-157.8795,"zip":"96820"},
-{"country":"New York","lat":43.0354,"long":-76.1282,"zip":"13210"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20260"},
-{"country":"Florida","lat":28.4429,"long":-81.4026,"zip":"32859"},
-{"country":"Missouri","lat":39.035,"long":-94.3567,"zip":"64179"},
-{"country":"Connecticut","lat":41.3087,"long":-72.9271,"zip":"06510"},
-{"country":"Texas","lat":29.7629,"long":-95.3629,"zip":"77250"},
-{"country":"California","lat":37.31,"long":-121.9011,"zip":"95155"},
-{"country":"Missouri","lat":38.5814,"long":-90.2625,"zip":"63116"},
-{"country":"Virginia","lat":37.5242,"long":-77.4932,"zip":"23260"},
-{"country":"Michigan","lat":42.7286,"long":-84.5517,"zip":"48919"},
-{"country":"Minnesota","lat":45.0159,"long":-93.4719,"zip":"55480"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20215"},
-{"country":"Wisconsin","lat":43.0174,"long":-87.5697,"zip":"53285"},
-{"country":"Ohio","lat":40.8956,"long":-81.433,"zip":"44720"},
-{"country":"Texas","lat":29.9015,"long":-95.2848,"zip":"77050"},
-{"country":"Georgia","lat":33.8444,"long":-84.474,"zip":"30343"},
-{"country":"California","lat":33.7867,"long":-117.8742,"zip":"92668"},
-{"country":"North Carolina","lat":35.26,"long":-80.8042,"zip":"28242"},
-{"country":"Texas","lat":29.7853,"long":-95.1852,"zip":"77015"},
-{"country":"Pennsylvania","lat":40.0018,"long":-75.1179,"zip":"19093"},
-{"country":"Georgia","lat":33.9321,"long":-83.3525,"zip":"30605"},
-{"country":"California","lat":33.8356,"long":-117.9132,"zip":"92825"},
-{"country":"South Carolina","lat":34.006,"long":-80.9708,"zip":"29215"},
-{"country":"West Virginia","lat":38.2968,"long":-81.5547,"zip":"25362"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20067"},
-{"country":"Virginia","lat":37.0318,"long":-76.3199,"zip":"23663"},
-{"country":"Alabama","lat":30.6341,"long":-88.0846,"zip":"36605"},
-{"country":"Nevada","lat":36.3265,"long":-115.3398,"zip":"89166"},
-{"country":"New York","lat":42.6853,"long":-73.8253,"zip":"12222"},
-{"country":"Arizona","lat":33.2765,"long":-112.1872,"zip":"85005"},
-{"country":"North Carolina","lat":35.1316,"long":-80.8577,"zip":"28210"},
-{"country":"New York","lat":43.0123,"long":-76.1452,"zip":"13205"},
-{"country":"Texas","lat":32.7714,"long":-97.2915,"zip":"76178"},
-{"country":"North Carolina","lat":36.0807,"long":-80.0244,"zip":"27404"},
-{"country":"Texas","lat":29.4189,"long":-98.6895,"zip":"78245"},
-{"country":"Texas","lat":29.7543,"long":-95.3609,"zip":"77010"},
-{"country":"Pennsylvania","lat":40.0018,"long":-75.1179,"zip":"19093"},
-{"country":"Nebraska","lat":40.8063,"long":-96.6545,"zip":"68510"},
-{"country":"California","lat":37.7848,"long":-122.7278,"zip":"94164"},
-{"country":"Illinois","lat":41.9399,"long":-87.6528,"zip":"60657"},
-{"country":"Oklahoma","lat":36.175,"long":-95.8477,"zip":"74116"},
-{"country":"Connecticut","lat":41.3657,"long":-72.9275,"zip":"06538"},
-{"country":"Tennessee","lat":35.2017,"long":-89.9715,"zip":"38150"},
-{"country":"Ohio","lat":41.1039,"long":-80.6436,"zip":"44555"},
-{"country":"California","lat":33.8359,"long":-117.9086,"zip":"92805"},
-{"country":"Kansas","lat":39.0583,"long":-95.7095,"zip":"66606"},
-{"country":"Ohio","lat":41.6868,"long":-83.4394,"zip":"43635"},
-{"country":"Arizona","lat":33.4226,"long":-111.7236,"zip":"85025"},
-{"country":"Indiana","lat":41.0977,"long":-85.1189,"zip":"46805"},
-{"country":"Florida","lat":27.2427,"long":-82.4751,"zip":"34238"},
-{"country":"Virginia","lat":38.8808,"long":-77.113,"zip":"22217"},
-{"country":"Florida","lat":25.5584,"long":-80.4582,"zip":"33283"},
-{"country":"North Carolina","lat":35.26,"long":-80.8042,"zip":"28272"},
-{"country":"Georgia","lat":33.9328,"long":-84.556,"zip":"30061"},
-{"country":"Ohio","lat":41.6525,"long":-83.5085,"zip":"43605"},
-{"country":"Florida","lat":26.1097,"long":-80.3215,"zip":"33325"},
-{"country":"Florida","lat":26.1457,"long":-80.4483,"zip":"33075"},
-{"country":"Illinois","lat":41.993,"long":-87.7596,"zip":"60646"},
-{"country":"South Carolina","lat":34.0635,"long":-81.0265,"zip":"29203"},
-{"country":"California","lat":33.0279,"long":-117.0856,"zip":"92127"},
-{"country":"Florida","lat":27.7898,"long":-82.7243,"zip":"33710"},
-{"country":"Texas","lat":29.4413,"long":-98.4793,"zip":"78215"},
-{"country":"New Jersey","lat":40.7107,"long":-74.2131,"zip":"07112"},
-{"country":"Alabama","lat":32.3834,"long":-86.2434,"zip":"36109"},
-{"country":"Oregon","lat":45.5653,"long":-122.6448,"zip":"97211"},
-{"country":"Arizona","lat":31.9701,"long":-111.8907,"zip":"85725"},
-{"country":"Washington","lat":47.1591,"long":-122.5485,"zip":"98498"},
-{"country":"Texas","lat":33.6021,"long":-101.876,"zip":"79415"},
-{"country":"Alabama","lat":30.6589,"long":-88.178,"zip":"36641"},
-{"country":"Wisconsin","lat":42.9559,"long":-87.9933,"zip":"53220"},
-{"country":"Arizona","lat":33.2781,"long":-111.7096,"zip":"85297"},
-{"country":"Texas","lat":29.834,"long":-95.4342,"zip":"77223"},
-{"country":"Alaska","lat":64.8561,"long":-146.276,"zip":"99790"},
-{"country":"Massachusetts","lat":41.9705,"long":-70.7014,"zip":"02305"},
-{"country":"Arizona","lat":32.2519,"long":-110.82,"zip":"85715"},
-{"country":"Kentucky","lat":38.189,"long":-85.6768,"zip":"40287"},
-{"country":"Colorado","lat":39.592,"long":-105.1328,"zip":"80127"},
-{"country":"Florida","lat":26.6492,"long":-81.6167,"zip":"33972"},
-{"country":"Texas","lat":30.4036,"long":-97.7526,"zip":"78759"},
-{"country":"Florida","lat":27.872,"long":-82.4388,"zip":"33686"},
-{"country":"Pennsylvania","lat":40.4344,"long":-80.0248,"zip":"15250"},
-{"country":"Nebraska","lat":41.2949,"long":-96.0546,"zip":"68134"},
-{"country":"Ohio","lat":41.0704,"long":-80.6931,"zip":"44511"},
-{"country":"South Carolina","lat":32.8488,"long":-79.8577,"zip":"29416"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"93584"},
-{"country":"New York","lat":43.1367,"long":-77.6481,"zip":"14619"},
-{"country":"North Dakota","lat":46.9346,"long":-97.2297,"zip":"58122"},
-{"country":"Georgia","lat":34.0268,"long":-84.2422,"zip":"30022"},
-{"country":"Virginia","lat":38.3365,"long":-77.4366,"zip":"22405"},
-{"country":"Oklahoma","lat":35.233,"long":-97.4067,"zip":"73071"},
-{"country":"Illinois","lat":42.0586,"long":-87.6845,"zip":"60208"},
-{"country":"Pennsylvania","lat":41.2722,"long":-75.8801,"zip":"18763"},
-{"country":"Missouri","lat":39.035,"long":-94.3567,"zip":"64193"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20231"},
-{"country":"Connecticut","lat":41.3087,"long":-72.9271,"zip":"06510"},
-{"country":"North Carolina","lat":36.0275,"long":-80.2073,"zip":"27116"},
-{"country":"California","lat":36.7949,"long":-119.7604,"zip":"93726"},
-{"country":"Utah","lat":40.6681,"long":-111.9083,"zip":"84135"},
-{"country":"Florida","lat":27.7898,"long":-82.7243,"zip":"33710"},
-{"country":"California","lat":33.7661,"long":-117.9738,"zip":"92844"},
-{"country":"Florida","lat":28.5642,"long":-82.4165,"zip":"34611"},
-{"country":"West Virginia","lat":38.4134,"long":-82.2774,"zip":"25775"},
-{"country":"Georgia","lat":31.55,"long":-84.0612,"zip":"31704"},
-{"country":"California","lat":37.7848,"long":-122.7278,"zip":"94142"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"90076"},
-{"country":"New York","lat":40.7808,"long":-73.9772,"zip":"10275"},
-{"country":"California","lat":38.3774,"long":-121.4444,"zip":"94273"},
-{"country":"California","lat":38.025,"long":-121.2972,"zip":"95210"},
-{"country":"California","lat":38.3774,"long":-121.4444,"zip":"94245"},
-{"country":"California","lat":33.9377,"long":-117.1851,"zip":"92555"},
-{"country":"Wisconsin","lat":43.0696,"long":-89.4239,"zip":"53710"},
-{"country":"District of Columbia","lat":38.892,"long":-77.0452,"zip":"20551"},
-{"country":"New York","lat":42.6149,"long":-73.9708,"zip":"12232"},
-{"country":"Texas","lat":27.777,"long":-97.4632,"zip":"78475"},
-{"country":"Texas","lat":30.2906,"long":-95.3832,"zip":"77305"},
-{"country":"Nevada","lat":39.4814,"long":-119.8591,"zip":"89519"},
-{"country":"Florida","lat":26.1219,"long":-80.1436,"zip":"33336"},
-{"country":"South Carolina","lat":34.8001,"long":-82.3932,"zip":"29605"},
-{"country":"New York","lat":42.9255,"long":-78.7481,"zip":"14225"},
-{"country":"Pennsylvania","lat":40.4344,"long":-80.0248,"zip":"15266"},
-{"country":"Nevada","lat":39.1678,"long":-119.7764,"zip":"89714"},
-{"country":"Illinois","lat":41.993,"long":-87.7596,"zip":"60646"},
-{"country":"California","lat":37.3329,"long":-121.8916,"zip":"95113"},
-{"country":"Michigan","lat":42.2922,"long":-85.633,"zip":"49006"},
-{"country":"Montana","lat":47.116,"long":-114.0498,"zip":"59806"},
-{"country":"Kansas","lat":39.085,"long":-94.6356,"zip":"66105"},
-{"country":"New York","lat":40.7808,"long":-73.9772,"zip":"10090"},
-{"country":"Minnesota","lat":46.8147,"long":-92.1998,"zip":"55811"},
-{"country":"Ohio","lat":41.1257,"long":-80.6277,"zip":"44505"},
-{"country":"Florida","lat":28.3822,"long":-81.569,"zip":"32830"},
-{"country":"Massachusetts","lat":42.4464,"long":-71.4594,"zip":"01813"},
-{"country":"California","lat":38.4631,"long":-122.99,"zip":"94975"},
-{"country":"California","lat":37.3924,"long":-121.9623,"zip":"95054"},
-{"country":"Oklahoma","lat":35.5514,"long":-97.4075,"zip":"73124"},
-{"country":"Ohio","lat":39.7155,"long":-84.1637,"zip":"45419"},
-{"country":"Tennessee","lat":35.0018,"long":-85.3138,"zip":"37410"},
-{"country":"Georgia","lat":33.8444,"long":-84.474,"zip":"31196"},
-{"country":"Iowa","lat":41.5386,"long":-90.6115,"zip":"52804"},
-{"country":"Florida","lat":26.6599,"long":-81.8934,"zip":"33915"},
-{"country":"Virginia","lat":38.8808,"long":-77.113,"zip":"22217"},
-{"country":"Missouri","lat":39.2627,"long":-94.697,"zip":"64153"},
-{"country":"California","lat":36.7464,"long":-119.6397,"zip":"93709"},
-{"country":"Minnesota","lat":45.0632,"long":-93.3811,"zip":"55428"},
-{"country":"Texas","lat":35.4015,"long":-101.8951,"zip":"79182"},
-{"country":"West Virginia","lat":38.354,"long":-81.6394,"zip":"25389"},
-{"country":"Wisconsin","lat":43.0174,"long":-87.5697,"zip":"53234"},
-{"country":"North Dakota","lat":46.8165,"long":-100.7805,"zip":"58505"},
-{"country":"Florida","lat":25.7341,"long":-80.4068,"zip":"33175"},
-{"country":"Texas","lat":33.0005,"long":-96.8314,"zip":"75287"},
-{"country":"Hawaii","lat":21.3095,"long":-157.863,"zip":"96850"},
-{"country":"Pennsylvania","lat":40.338,"long":-75.978,"zip":"19610"},
-{"country":"Arkansas","lat":34.8337,"long":-92.3289,"zip":"72118"},
-{"country":"Louisiana","lat":30.033,"long":-89.8826,"zip":"70174"},
-{"country":"Nevada","lat":36.2204,"long":-115.1458,"zip":"89087"},
-{"country":"Georgia","lat":33.413,"long":-82.1337,"zip":"30905"},
-{"country":"Colorado","lat":38.8247,"long":-104.562,"zip":"80945"},
-{"country":"Wisconsin","lat":43.0982,"long":-89.3242,"zip":"53779"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"90410"},
-{"country":"Maryland","lat":38.9585,"long":-77.1153,"zip":"20816"},
-{"country":"West Virginia","lat":38.4142,"long":-81.7582,"zip":"25313"},
-{"country":"Texas","lat":29.4189,"long":-98.6895,"zip":"78245"},
-{"country":"Michigan","lat":43.3869,"long":-84.0926,"zip":"48609"},
-{"country":"Utah","lat":40.6681,"long":-111.9083,"zip":"84130"},
-{"country":"Nevada","lat":35.9279,"long":-114.9721,"zip":"89155"},
-{"country":"Missouri","lat":38.6171,"long":-90.4504,"zip":"63131"},
-{"country":"Tennessee","lat":35.6124,"long":-88.8412,"zip":"38308"},
-{"country":"Connecticut","lat":41.3657,"long":-72.9275,"zip":"06533"},
-{"country":"Illinois","lat":39.7495,"long":-89.606,"zip":"62756"},
-{"country":"New York","lat":40.7808,"long":-73.9772,"zip":"10203"},
-{"country":"Texas","lat":32.7942,"long":-96.7652,"zip":"75358"},
-{"country":"Washington","lat":47.4441,"long":-122.3249,"zip":"98148"},
-{"country":"California","lat":36.7991,"long":-119.8016,"zip":"93704"},
-{"country":"District of Columbia","lat":38.8941,"long":-77.0251,"zip":"20535"},
-{"country":"Indiana","lat":41.6255,"long":-86.2433,"zip":"46614"},
-{"country":"Florida","lat":27.1675,"long":-82.381,"zip":"34276"},
-{"country":"Illinois","lat":41.993,"long":-87.7596,"zip":"60646"},
-{"country":"Minnesota","lat":44.9608,"long":-93.1216,"zip":"55103"},
-{"country":"Massachusetts","lat":42.3253,"long":-71.1122,"zip":"02163"},
-{"country":"Maryland","lat":39.0883,"long":-77.1568,"zip":"20883"},
-{"country":"Massachusetts","lat":41.9705,"long":-70.7014,"zip":"02305"},
-{"country":"Texas","lat":27.7262,"long":-97.4078,"zip":"78415"},
-{"country":"Indiana","lat":37.9971,"long":-87.575,"zip":"47737"},
-{"country":"New York","lat":40.8171,"long":-73.7416,"zip":"11024"},
-{"country":"Indiana","lat":39.7673,"long":-86.1606,"zip":"46207"},
-{"country":"Florida","lat":30.6143,"long":-87.2758,"zip":"32575"},
-{"country":"Oregon","lat":44.0185,"long":-123.0998,"zip":"97405"},
-{"country":"New Jersey","lat":40.7107,"long":-74.2131,"zip":"07112"},
-{"country":"Colorado","lat":38.1286,"long":-104.5523,"zip":"81010"},
-{"country":"Arizona","lat":32.0848,"long":-110.7122,"zip":"85732"},
-{"country":"North Carolina","lat":35.26,"long":-80.8042,"zip":"28299"},
-{"country":"Washington","lat":47.6536,"long":-117.4317,"zip":"99210"},
-{"country":"West Virginia","lat":38.4142,"long":-81.7582,"zip":"25313"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"91210"},
-{"country":"New York","lat":43.174,"long":-77.5637,"zip":"14609"},
-{"country":"Kentucky","lat":38.189,"long":-85.6768,"zip":"40233"},
-{"country":"Pennsylvania","lat":40.4344,"long":-80.0248,"zip":"15250"},
-{"country":"North Carolina","lat":35.7977,"long":-78.6253,"zip":"27621"},
-{"country":"New York","lat":42.6149,"long":-73.9708,"zip":"12247"},
-{"country":"Washington","lat":46.6288,"long":-120.574,"zip":"98907"},
-{"country":"Virginia","lat":38.8808,"long":-77.113,"zip":"22212"},
-{"country":"Illinois","lat":39.7495,"long":-89.606,"zip":"62764"},
-{"country":"Texas","lat":31.6948,"long":-106.3,"zip":"88546"},
-{"country":"Nevada","lat":36.1378,"long":-115.3261,"zip":"89135"},
-{"country":"Oklahoma","lat":36.1398,"long":-96.0297,"zip":"74184"},
-{"country":"New Mexico","lat":32.3052,"long":-106.7863,"zip":"88006"},
-{"country":"California","lat":36.7464,"long":-119.6397,"zip":"93709"},
-{"country":"North Carolina","lat":35.26,"long":-80.8042,"zip":"28242"},
-{"country":"Ohio","lat":41.0704,"long":-80.6931,"zip":"44511"},
-{"country":"Alabama","lat":33.5446,"long":-86.9292,"zip":"35254"},
-{"country":"Texas","lat":30.6521,"long":-96.341,"zip":"77806"},
-{"country":"Texas","lat":32.7582,"long":-97.1003,"zip":"76011"},
-{"country":"Texas","lat":29.7629,"long":-95.3629,"zip":"77250"},
-{"country":"West Virginia","lat":38.4134,"long":-82.2774,"zip":"25775"},
-{"country":"Virginia","lat":38.8318,"long":-77.2888,"zip":"22119"},
-{"country":"Kansas","lat":39.085,"long":-94.6356,"zip":"66105"},
-{"country":"Georgia","lat":33.413,"long":-82.1337,"zip":"30905"},
-{"country":"Florida","lat":28.06,"long":-82.4079,"zip":"33620"},
-{"country":"Missouri","lat":38.6185,"long":-90.2564,"zip":"63110"},
-{"country":"Colorado","lat":39.6472,"long":-105.0795,"zip":"80235"},
-{"country":"Ohio","lat":39.1802,"long":-84.4204,"zip":"45213"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"91117"},
-{"country":"West Virginia","lat":38.4142,"long":-81.7582,"zip":"25313"},
-{"country":"Florida","lat":27.8444,"long":-82.7963,"zip":"34642"},
-{"country":"Kentucky","lat":38.189,"long":-85.6768,"zip":"40256"},
-{"country":"Colorado","lat":38.8558,"long":-104.7134,"zip":"80915"},
-{"country":"Florida","lat":27.2427,"long":-82.4751,"zip":"34238"},
-{"country":"Connecticut","lat":41.2091,"long":-73.2086,"zip":"06606"},
-{"country":"North Carolina","lat":35.6004,"long":-82.4918,"zip":"28805"},
-{"country":"Massachusetts","lat":42.1707,"long":-72.6048,"zip":"01152"},
-{"country":"Ohio","lat":41.6857,"long":-81.6728,"zip":"44177"},
-{"country":"California","lat":33.7529,"long":-116.0556,"zip":"92519"},
-{"country":"California","lat":34.84,"long":-115.9671,"zip":"92424"},
-{"country":"Pennsylvania","lat":40.4181,"long":-80.0526,"zip":"15220"},
-{"country":"Kansas","lat":39.0583,"long":-95.7095,"zip":"66606"},
-{"country":"Texas","lat":29.4375,"long":-98.4616,"zip":"78265"},
-{"country":"Colorado","lat":39.7388,"long":-104.4083,"zip":"80270"},
-{"country":"New York","lat":43.286,"long":-77.6843,"zip":"14639"},
-{"country":"California","lat":32.6513,"long":-116.9852,"zip":"91913"},
-{"country":"Alabama","lat":32.3544,"long":-86.2843,"zip":"36195"},
-{"country":"Wisconsin","lat":43.0528,"long":-87.9353,"zip":"53205"},
-{"country":"Ohio","lat":41.4509,"long":-81.619,"zip":"44105"},
-{"country":"Texas","lat":30.3264,"long":-97.7713,"zip":"78789"},
-{"country":"Illinois","lat":41.9699,"long":-87.7603,"zip":"60630"},
-{"country":"Texas","lat":32.7887,"long":-96.7676,"zip":"75226"},
-{"country":"Florida","lat":30.351,"long":-81.5061,"zip":"32225"},
-{"country":"California","lat":37.3924,"long":-121.9623,"zip":"95054"},
-{"country":"Texas","lat":30.4455,"long":-97.6595,"zip":"78764"},
-{"country":"Florida","lat":30.6143,"long":-87.2758,"zip":"32575"},
-{"country":"Connecticut","lat":41.7665,"long":-72.6933,"zip":"06160"},
-{"country":"Pennsylvania","lat":39.9772,"long":-75.2545,"zip":"19151"},
-{"country":"District of Columbia","lat":38.884,"long":-77.0221,"zip":"20414"},
-{"country":"New York","lat":40.7086,"long":-74.0087,"zip":"10045"},
-{"country":"Colorado","lat":39.7467,"long":-104.8384,"zip":"80045"},
-{"country":"Indiana","lat":41.1465,"long":-85.1232,"zip":"46825"},
-{"country":"Washington","lat":47.6564,"long":-122.3048,"zip":"98195"},
-{"country":"California","lat":37.3866,"long":-121.897,"zip":"95150"},
-{"country":"Texas","lat":32.7086,"long":-96.7955,"zip":"75216"},
-{"country":"Texas","lat":31.8767,"long":-102.4375,"zip":"79764"},
-{"country":"Oklahoma","lat":35.5514,"long":-97.4075,"zip":"73167"},
-{"country":"Connecticut","lat":41.786,"long":-72.6758,"zip":"06120"},
-{"country":"Florida","lat":30.351,"long":-81.5061,"zip":"32225"},
-{"country":"Illinois","lat":41.993,"long":-87.7596,"zip":"60646"},
-{"country":"Connecticut","lat":41.2091,"long":-73.2086,"zip":"06606"},
-{"country":"North Carolina","lat":34.0881,"long":-77.8526,"zip":"28410"},
-{"country":"New Jersey","lat":40.9252,"long":-74.1781,"zip":"07522"},
-{"country":"Florida","lat":27.9139,"long":-82.7157,"zip":"34620"},
-{"country":"Maryland","lat":39.0763,"long":-77.1234,"zip":"20851"},
-{"country":"Texas","lat":32.3766,"long":-95.1252,"zip":"75705"},
-{"country":"Tennessee","lat":35.2017,"long":-89.9715,"zip":"38197"},
-{"country":"California","lat":36.7949,"long":-119.7604,"zip":"93726"},
-{"country":"Indiana","lat":41.0977,"long":-85.1189,"zip":"46805"},
-{"country":"Ohio","lat":40.7779,"long":-82.4613,"zip":"44905"},
-{"country":"South Carolina","lat":34.5271,"long":-82.7087,"zip":"29625"},
-{"country":"Virginia","lat":38.8836,"long":-77.1395,"zip":"22205"},
-{"country":"New Mexico","lat":35.0443,"long":-106.6729,"zip":"87190"},
-{"country":"Ohio","lat":41.6857,"long":-81.6728,"zip":"44197"},
-{"country":"Tennessee","lat":35.9918,"long":-83.8496,"zip":"37914"},
-{"country":"Utah","lat":40.7259,"long":-111.9394,"zip":"84199"},
-{"country":"Virginia","lat":38.0401,"long":-78.4851,"zip":"22908"},
-{"country":"Ohio","lat":41.4335,"long":-81.6323,"zip":"44125"},
-{"country":"California","lat":38.596,"long":-121.3978,"zip":"95865"},
-{"country":"California","lat":33.9377,"long":-117.1851,"zip":"92555"},
-{"country":"Florida","lat":27.9951,"long":-82.4046,"zip":"33610"},
-{"country":"Pennsylvania","lat":40.0365,"long":-75.1451,"zip":"19141"},
-{"country":"North Carolina","lat":35.26,"long":-80.8042,"zip":"28242"},
-{"country":"Texas","lat":30.352,"long":-97.7151,"zip":"78710"},
-{"country":"Missouri","lat":38.6383,"long":-90.4271,"zip":"63167"},
-{"country":"New Jersey","lat":39.9186,"long":-75.1078,"zip":"08104"},
-{"country":"Utah","lat":41.2553,"long":-111.9567,"zip":"84409"},
-{"country":"California","lat":37.7848,"long":-122.7278,"zip":"94142"},
-{"country":"Florida","lat":28.0726,"long":-82.559,"zip":"33625"},
-{"country":"Florida","lat":25.5584,"long":-80.4582,"zip":"33245"},
-{"country":"Connecticut","lat":41.0888,"long":-73.5435,"zip":"06905"},
-{"country":"Massachusetts","lat":42.3611,"long":-71.0682,"zip":"02114"},
-{"country":"Texas","lat":31.5915,"long":-97.0823,"zip":"76796"},
-{"country":"California","lat":37.3811,"long":-122.3348,"zip":"94064"},
-{"country":"Texas","lat":32.4112,"long":-95.2899,"zip":"75799"},
-{"country":"Nevada","lat":36.2235,"long":-115.2655,"zip":"89125"},
-{"country":"Texas","lat":31.6948,"long":-106.3,"zip":"79940"},
-{"country":"New York","lat":40.7808,"long":-73.9772,"zip":"10125"},
-{"country":"Washington","lat":47.6063,"long":-122.3308,"zip":"98127"},
-{"country":"California","lat":34.6019,"long":-117.8123,"zip":"93591"},
-{"country":"Florida","lat":27.9951,"long":-82.4046,"zip":"33610"},
-{"country":"Missouri","lat":38.6531,"long":-90.2435,"zip":"63150"},
-{"country":"Florida","lat":26.6644,"long":-80.1741,"zip":"33411"},
-{"country":"Texas","lat":29.834,"long":-95.4342,"zip":"77299"},
-{"country":"Iowa","lat":41.6727,"long":-93.5722,"zip":"50981"},
-{"country":"Michigan","lat":43.6375,"long":-84.2568,"zip":"48670"},
-{"country":"Alabama","lat":33.5446,"long":-86.9292,"zip":"35220"},
-{"country":"Texas","lat":30.085,"long":-94.2607,"zip":"77713"},
-{"country":"Colorado","lat":39.7439,"long":-104.9876,"zip":"80291"},
-{"country":"Virginia","lat":38.8808,"long":-77.113,"zip":"22225"},
-{"country":"California","lat":38.4386,"long":-122.6727,"zip":"95405"},
-{"country":"California","lat":33.0169,"long":-116.846,"zip":"92030"},
-{"country":"Utah","lat":40.7372,"long":-111.8581,"zip":"84105"},
-{"country":"Texas","lat":29.7971,"long":-95.4958,"zip":"77055"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20591"},
-{"country":"Virginia","lat":38.7192,"long":-77.1073,"zip":"22309"},
-{"country":"Maryland","lat":39.0763,"long":-77.1234,"zip":"20851"},
-{"country":"Alabama","lat":30.6589,"long":-88.178,"zip":"36628"},
-{"country":"West Virginia","lat":39.6505,"long":-79.944,"zip":"26505"},
-{"country":"Nevada","lat":39.5224,"long":-119.8353,"zip":"89505"},
-{"country":"New Jersey","lat":40.2805,"long":-74.712,"zip":"08603"},
-{"country":"Texas","lat":32.7086,"long":-96.7955,"zip":"75216"},
-{"country":"California","lat":34.1378,"long":-118.2424,"zip":"91205"},
-{"country":"Washington","lat":47.4323,"long":-121.8034,"zip":"98185"},
-{"country":"Virginia","lat":38.8318,"long":-77.2888,"zip":"22047"},
-{"country":"Colorado","lat":39.7388,"long":-104.4083,"zip":"80255"},
-{"country":"District of Columbia","lat":38.9164,"long":-76.9948,"zip":"20397"},
-{"country":"New Jersey","lat":40.7324,"long":-74.0431,"zip":"07310"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20051"},
-{"country":"Massachusetts","lat":42.3823,"long":-71.0323,"zip":"02298"},
-{"country":"Missouri","lat":39.2829,"long":-94.409,"zip":"64160"},
-{"country":"Texas","lat":35.1885,"long":-101.8165,"zip":"79188"},
-{"country":"Indiana","lat":39.7851,"long":-86.1595,"zip":"46202"},
-{"country":"New York","lat":40.6924,"long":-73.9666,"zip":"11205"},
-{"country":"New York","lat":40.7506,"long":-73.9894,"zip":"10120"},
-{"country":"Pennsylvania","lat":40.0018,"long":-75.1179,"zip":"19191"},
-{"country":"California","lat":38.3774,"long":-121.4444,"zip":"94230"},
-{"country":"New York","lat":42.7684,"long":-78.8871,"zip":"14233"},
-{"country":"Texas","lat":32.7887,"long":-96.7676,"zip":"75226"},
-{"country":"Maryland","lat":38.8893,"long":-75.8612,"zip":"21684"},
-{"country":"New Jersey","lat":40.7107,"long":-74.2131,"zip":"07112"},
-{"country":"Texas","lat":30.0167,"long":-95.447,"zip":"77090"},
-{"country":"New York","lat":40.8702,"long":-73.8495,"zip":"10469"},
-{"country":"Massachusetts","lat":42.3648,"long":-71.8969,"zip":"01654"},
-{"country":"Florida","lat":30.4061,"long":-87.2917,"zip":"32511"},
-{"country":"Nevada","lat":39.5224,"long":-119.8353,"zip":"89505"},
-{"country":"Kentucky","lat":38.2149,"long":-85.6245,"zip":"40220"},
-{"country":"Texas","lat":31.7466,"long":-102.567,"zip":"79769"},
-{"country":"Kentucky","lat":38.189,"long":-85.6768,"zip":"40225"},
-{"country":"Washington","lat":45.6231,"long":-122.5767,"zip":"98664"},
-{"country":"West Virginia","lat":38.2968,"long":-81.5547,"zip":"25331"},
-{"country":"Florida","lat":30.287,"long":-81.3893,"zip":"32255"},
-{"country":"Pennsylvania","lat":40.2944,"long":-76.8938,"zip":"17121"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20210"},
-{"country":"Kansas","lat":37.6808,"long":-97.1558,"zip":"67230"},
-{"country":"Florida","lat":26.045,"long":-81.6669,"zip":"33961"},
-{"country":"Virginia","lat":38.8158,"long":-77.09,"zip":"22313"},
-{"country":"Florida","lat":25.5584,"long":-80.4582,"zip":"33164"},
-{"country":"New York","lat":43.0421,"long":-76.1046,"zip":"13224"},
-{"country":"Florida","lat":28.5679,"long":-81.3258,"zip":"32813"},
-{"country":"Florida","lat":30.2345,"long":-85.692,"zip":"32412"},
-{"country":"Maryland","lat":38.8893,"long":-75.8612,"zip":"21684"},
-{"country":"California","lat":37.6409,"long":-120.9749,"zip":"95354"},
-{"country":"California","lat":37.3329,"long":-121.8916,"zip":"95113"},
-{"country":"Connecticut","lat":41.7665,"long":-72.6933,"zip":"06160"},
-{"country":"Texas","lat":29.9335,"long":-95.3981,"zip":"77060"},
-{"country":"Texas","lat":30.7813,"long":-95.5953,"zip":"77343"},
-{"country":"Louisiana","lat":30.033,"long":-89.8826,"zip":"70165"},
-{"country":"New Mexico","lat":35.0443,"long":-106.6729,"zip":"87180"},
-{"country":"District of Columbia","lat":38.8959,"long":-77.0211,"zip":"20436"},
-{"country":"Missouri","lat":39.035,"long":-94.3567,"zip":"64142"},
-{"country":"Minnesota","lat":45.071,"long":-92.9391,"zip":"55115"},
-{"country":"Oklahoma","lat":35.599,"long":-97.6251,"zip":"73142"},
-{"country":"Kansas","lat":39.0429,"long":-95.7697,"zip":"66699"},
-{"country":"Tennessee","lat":35.8596,"long":-86.421,"zip":"37131"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20215"},
-{"country":"Virginia","lat":36.8686,"long":-76.3552,"zip":"23705"},
-{"country":"Texas","lat":32.3766,"long":-95.1252,"zip":"75705"},
-{"country":"Missouri","lat":39.7076,"long":-94.8677,"zip":"64504"},
-{"country":"Nevada","lat":36.0384,"long":-115.0857,"zip":"89074"},
-{"country":"Texas","lat":29.834,"long":-95.4342,"zip":"77228"},
-{"country":"Texas","lat":29.4189,"long":-98.6895,"zip":"78245"},
-{"country":"North Carolina","lat":36.1824,"long":-79.806,"zip":"27455"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20380"},
-{"country":"Texas","lat":32.6722,"long":-96.7774,"zip":"75241"},
-{"country":"Maryland","lat":39.0763,"long":-77.1234,"zip":"20851"},
-{"country":"Texas","lat":30.2107,"long":-97.9427,"zip":"78737"},
-{"country":"Tennessee","lat":36.1866,"long":-86.7852,"zip":"37235"},
-{"country":"Nevada","lat":36.086,"long":-115.1471,"zip":"89140"},
-{"country":"Kentucky","lat":38.0283,"long":-84.4715,"zip":"40524"},
-{"country":"Delaware","lat":39.5645,"long":-75.597,"zip":"19714"},
-{"country":"West Virginia","lat":38.1321,"long":-82.4183,"zip":"25709"},
-{"country":"Colorado","lat":38.7378,"long":-104.6459,"zip":"80925"},
-{"country":"Florida","lat":30.287,"long":-81.3893,"zip":"32255"},
-{"country":"Virginia","lat":38.7351,"long":-77.0796,"zip":"22036"},
-{"country":"Virginia","lat":37.5593,"long":-77.4471,"zip":"23213"},
-{"country":"Oklahoma","lat":35.6665,"long":-97.4798,"zip":"73034"},
-{"country":"Arizona","lat":33.2765,"long":-112.1872,"zip":"85099"},
-{"country":"Colorado","lat":39.7388,"long":-104.4083,"zip":"80255"},
-{"country":"North Carolina","lat":35.26,"long":-80.8042,"zip":"28242"},
-{"country":"Washington","lat":47.6536,"long":-117.4317,"zip":"99220"},
-{"country":"Texas","lat":31.6948,"long":-106.3,"zip":"88584"},
-{"country":"Nevada","lat":36.1378,"long":-115.3261,"zip":"89135"},
-{"country":"Minnesota","lat":45.0058,"long":-93.4193,"zip":"55441"},
-{"country":"Oklahoma","lat":36.0467,"long":-95.8841,"zip":"74133"},
-{"country":"New York","lat":40.6964,"long":-74.0253,"zip":"10004"},
-{"country":"Virginia","lat":36.9216,"long":-76.0171,"zip":"23459"},
-{"country":"New Mexico","lat":32.3052,"long":-106.7863,"zip":"88006"},
-{"country":"Pennsylvania","lat":40.0086,"long":-76.5972,"zip":"17405"},
-{"country":"Oklahoma","lat":36.0467,"long":-95.8841,"zip":"74133"},
-{"country":"Oklahoma","lat":36.1398,"long":-96.0297,"zip":"74149"},
-{"country":"New Mexico","lat":35.0443,"long":-106.6729,"zip":"87195"},
-{"country":"California","lat":33.6706,"long":-117.7645,"zip":"92619"},
-{"country":"California","lat":37.8471,"long":-122.2223,"zip":"94611"},
-{"country":"California","lat":33.6462,"long":-117.8398,"zip":"92717"},
-{"country":"Virginia","lat":38.8158,"long":-77.09,"zip":"22333"},
-{"country":"Virginia","lat":38.8318,"long":-77.2888,"zip":"22184"},
-{"country":"Tennessee","lat":36.1866,"long":-86.7852,"zip":"37250"},
-{"country":"Alabama","lat":32.404,"long":-86.2539,"zip":"36114"},
-{"country":"Washington","lat":47.1042,"long":-122.87,"zip":"98506"},
-{"country":"Alaska","lat":64.8561,"long":-146.276,"zip":"99790"},
-{"country":"Texas","lat":30.0042,"long":-95.1728,"zip":"77346"},
-{"country":"South Carolina","lat":34.006,"long":-80.9708,"zip":"29215"},
-{"country":"Ohio","lat":40.7779,"long":-82.4613,"zip":"44905"},
-{"country":"Idaho","lat":43.4599,"long":-116.244,"zip":"83732"},
-{"country":"Texas","lat":29.7687,"long":-95.3867,"zip":"77260"},
-{"country":"Indiana","lat":39.8326,"long":-86.0836,"zip":"46226"},
-{"country":"California","lat":33.7867,"long":-117.8742,"zip":"92668"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"91117"},
-{"country":"Maryland","lat":39.5207,"long":-77.9162,"zip":"21747"},
-{"country":"Arizona","lat":33.4724,"long":-112.1832,"zip":"85035"},
-{"country":"Texas","lat":29.5054,"long":-98.6688,"zip":"78250"},
-{"country":"Utah","lat":40.6681,"long":-111.9083,"zip":"84189"},
-{"country":"Ohio","lat":39.6749,"long":-84.1136,"zip":"45440"},
-{"country":"Florida","lat":30.3189,"long":-81.6854,"zip":"32204"},
-{"country":"Louisiana","lat":32.6076,"long":-93.7526,"zip":"71137"},
-{"country":"Alaska","lat":64.8544,"long":-147.8469,"zip":"99709"},
-{"country":"California","lat":32.8538,"long":-117.1197,"zip":"92137"},
-{"country":"Virginia","lat":36.9312,"long":-76.2397,"zip":"23520"},
-{"country":"North Carolina","lat":35.0656,"long":-80.8511,"zip":"28247"},
-{"country":"Texas","lat":32.4112,"long":-95.2899,"zip":"75799"},
-{"country":"California","lat":34.0447,"long":-118.4487,"zip":"90025"},
-{"country":"Arizona","lat":33.3887,"long":-111.8428,"zip":"85210"},
-{"country":"Alabama","lat":30.6589,"long":-88.178,"zip":"36689"},
-{"country":"Nevada","lat":39.7699,"long":-119.6027,"zip":"89510"},
-{"country":"Georgia","lat":33.8444,"long":-84.474,"zip":"30386"},
-{"country":"Florida","lat":25.7274,"long":-80.4497,"zip":"33185"},
-{"country":"Louisiana","lat":30.3633,"long":-91.0919,"zip":"70810"},
-{"country":"Texas","lat":31.6948,"long":-106.3,"zip":"88519"},
-{"country":"Utah","lat":40.5927,"long":-111.831,"zip":"84093"},
-{"country":"Massachusetts","lat":41.6913,"long":-70.9355,"zip":"02745"},
-{"country":"Florida","lat":26.6459,"long":-80.4303,"zip":"33448"},
-{"country":"Texas","lat":32.7699,"long":-96.743,"zip":"75210"},
-{"country":"Mississippi","lat":32.3113,"long":-90.3972,"zip":"39296"},
-{"country":"Kentucky","lat":37.9651,"long":-84.4708,"zip":"40515"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"91797"},
-{"country":"California","lat":37.7848,"long":-122.7278,"zip":"94137"},
-{"country":"New York","lat":43.1367,"long":-77.6481,"zip":"14619"},
-{"country":"Nebraska","lat":41.249,"long":-96.0274,"zip":"68197"},
-{"country":"Alabama","lat":33.5452,"long":-86.6655,"zip":"35210"},
-{"country":"Wisconsin","lat":43.0528,"long":-87.9353,"zip":"53205"},
-{"country":"New York","lat":43.1577,"long":-77.608,"zip":"14604"},
-{"country":"Tennessee","lat":36.0641,"long":-86.7697,"zip":"37220"},
-{"country":"California","lat":37.9577,"long":-121.2897,"zip":"95298"},
-{"country":"California","lat":34.0324,"long":-119.1343,"zip":"93005"},
-{"country":"Washington","lat":47.6564,"long":-122.3048,"zip":"98195"},
-{"country":"New York","lat":42.9335,"long":-78.8115,"zip":"14215"},
-{"country":"Florida","lat":26.0143,"long":-81.5856,"zip":"34114"},
-{"country":"Oklahoma","lat":35.3425,"long":-97.6317,"zip":"73173"},
-{"country":"New York","lat":42.6853,"long":-73.8253,"zip":"12222"},
-{"country":"Illinois","lat":41.8119,"long":-87.6873,"zip":"60078"},
-{"country":"Wisconsin","lat":42.7161,"long":-87.8233,"zip":"53405"},
-{"country":"Virginia","lat":38.8808,"long":-77.113,"zip":"22234"},
-{"country":"Alabama","lat":33.5446,"long":-86.9292,"zip":"35254"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"90847"},
-{"country":"California","lat":37.7848,"long":-122.7278,"zip":"94154"},
-{"country":"Colorado","lat":38.8247,"long":-104.562,"zip":"80940"},
-{"country":"Colorado","lat":39.734,"long":-105.0259,"zip":"80204"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"90087"},
-{"country":"New York","lat":43.1367,"long":-77.6481,"zip":"14619"},
-{"country":"Texas","lat":33.3934,"long":-94.3404,"zip":"75507"},
-{"country":"Connecticut","lat":41.3087,"long":-72.9271,"zip":"06510"},
-{"country":"Texas","lat":31.6948,"long":-106.3,"zip":"79977"},
-{"country":"Georgia","lat":33.8913,"long":-84.0746,"zip":"30356"},
-{"country":"New York","lat":40.6669,"long":-73.9828,"zip":"11215"},
-{"country":"Tennessee","lat":35.2017,"long":-89.9715,"zip":"38168"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"90076"},
-{"country":"Virginia","lat":36.7978,"long":-76.1759,"zip":"23464"},
-{"country":"Nevada","lat":35.9279,"long":-114.9721,"zip":"89036"},
-{"country":"Maryland","lat":39.2856,"long":-76.6899,"zip":"21229"},
-{"country":"Wisconsin","lat":44.5463,"long":-88.1021,"zip":"54313"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20575"},
-{"country":"Pennsylvania","lat":40.0018,"long":-75.1179,"zip":"19196"},
-{"country":"Pennsylvania","lat":40.303,"long":-76.8862,"zip":"17110"},
-{"country":"Texas","lat":29.8744,"long":-95.5278,"zip":"77040"},
-{"country":"Nebraska","lat":41.2335,"long":-96.1188,"zip":"68144"},
-{"country":"Florida","lat":28.0173,"long":-82.7461,"zip":"33763"},
-{"country":"California","lat":32.7423,"long":-117.0947,"zip":"92105"},
-{"country":"Georgia","lat":33.9367,"long":-83.9573,"zip":"30045"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20580"},
-{"country":"California","lat":33.6706,"long":-117.7645,"zip":"92619"},
-{"country":"Arizona","lat":33.2765,"long":-112.1872,"zip":"85271"},
-{"country":"Virginia","lat":38.8808,"long":-77.113,"zip":"22225"},
-{"country":"Wisconsin","lat":43.0696,"long":-89.4239,"zip":"53726"},
-{"country":"Louisiana","lat":30.033,"long":-89.8826,"zip":"70174"},
-{"country":"Arizona","lat":33.2765,"long":-112.1872,"zip":"85030"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20088"},
-{"country":"New York","lat":40.7069,"long":-74.0082,"zip":"10270"},
-{"country":"Connecticut","lat":41.7665,"long":-72.6933,"zip":"06160"},
-{"country":"Virginia","lat":38.8318,"long":-77.2888,"zip":"22096"},
-{"country":"Indiana","lat":39.5327,"long":-87.3255,"zip":"47805"},
-{"country":"Arizona","lat":33.4061,"long":-112.0265,"zip":"85040"},
-{"country":"California","lat":33.7678,"long":-118.1994,"zip":"90831"},
-{"country":"Texas","lat":31.6948,"long":-106.3,"zip":"88574"},
-{"country":"California","lat":33.8635,"long":-118.1801,"zip":"90805"},
-{"country":"Connecticut","lat":41.1928,"long":-73.2402,"zip":"06825"},
-{"country":"California","lat":33.9583,"long":-118.3258,"zip":"90305"},
-{"country":"Virginia","lat":38.8808,"long":-77.113,"zip":"22217"},
-{"country":"Indiana","lat":41.6255,"long":-86.2433,"zip":"46614"},
-{"country":"Colorado","lat":39.9807,"long":-105.2531,"zip":"80305"},
-{"country":"Florida","lat":29.0227,"long":-81.1722,"zip":"32123"},
-{"country":"Texas","lat":32.0295,"long":-102.0915,"zip":"79705"},
-{"country":"Oklahoma","lat":35.5514,"long":-97.4075,"zip":"73147"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"90610"},
-{"country":"Florida","lat":28.5059,"long":-82.4226,"zip":"34605"},
-{"country":"Washington","lat":47.6536,"long":-117.4317,"zip":"99220"},
-{"country":"Pennsylvania","lat":40.4344,"long":-80.0248,"zip":"15134"},
-{"country":"Iowa","lat":42.0794,"long":-91.5992,"zip":"52410"},
-{"country":"Ohio","lat":41.6782,"long":-83.4972,"zip":"43656"},
-{"country":"Michigan","lat":43.0349,"long":-83.6887,"zip":"48550"},
-{"country":"California","lat":33.9377,"long":-117.1851,"zip":"92555"},
-{"country":"Kentucky","lat":38.189,"long":-85.6768,"zip":"40293"},
-{"country":"Michigan","lat":43.0634,"long":-83.7001,"zip":"48505"},
-{"country":"Louisiana","lat":30.0071,"long":-90.1094,"zip":"70124"},
-{"country":"Ohio","lat":39.1696,"long":-84.5478,"zip":"45223"},
-{"country":"New York","lat":43.1367,"long":-77.6481,"zip":"14619"},
-{"country":"Colorado","lat":39.5437,"long":-104.9691,"zip":"80126"},
-{"country":"New Jersey","lat":40.702,"long":-74.089,"zip":"07305"},
-{"country":"Oklahoma","lat":36.1499,"long":-95.7923,"zip":"74108"},
-{"country":"California","lat":38.596,"long":-121.3978,"zip":"95865"},
-{"country":"Washington","lat":47.6339,"long":-122.3476,"zip":"98109"},
-{"country":"Alabama","lat":32.2334,"long":-86.2085,"zip":"36119"},
-{"country":"Utah","lat":40.6681,"long":-111.9083,"zip":"84135"},
-{"country":"Florida","lat":30.4478,"long":-84.3211,"zip":"32304"},
-{"country":"Virginia","lat":37.5242,"long":-77.4932,"zip":"23272"},
-{"country":"Texas","lat":27.777,"long":-97.4632,"zip":"78475"},
-{"country":"Texas","lat":29.7853,"long":-95.1852,"zip":"77015"},
-{"country":"Tennessee","lat":35.9901,"long":-83.9622,"zip":"37995"},
-{"country":"Wisconsin","lat":43.0696,"long":-89.4239,"zip":"53790"},
-{"country":"Nebraska","lat":40.7845,"long":-96.6888,"zip":"68583"},
-{"country":"Indiana","lat":39.7038,"long":-86.3029,"zip":"46231"},
-{"country":"Alaska","lat":64.8544,"long":-147.8469,"zip":"99709"},
-{"country":"Connecticut","lat":41.7665,"long":-72.6933,"zip":"06160"},
-{"country":"Colorado","lat":38.8247,"long":-104.562,"zip":"80945"},
-{"country":"New Jersey","lat":40.2805,"long":-74.712,"zip":"08603"},
-{"country":"New York","lat":40.6913,"long":-73.8059,"zip":"11407"},
-{"country":"Tennessee","lat":35.2017,"long":-89.9715,"zip":"38143"},
-{"country":"Georgia","lat":32.0391,"long":-81.1242,"zip":"31405"},
-{"country":"Virginia","lat":37.2327,"long":-79.9463,"zip":"24014"},
-{"country":"Florida","lat":30.329,"long":-81.8176,"zip":"32220"},
-{"country":"Virginia","lat":37.2742,"long":-79.9579,"zip":"24029"},
-{"country":"Texas","lat":32.7673,"long":-96.7776,"zip":"75372"},
-{"country":"Texas","lat":29.4375,"long":-98.4616,"zip":"78296"},
-{"country":"Maryland","lat":39.0883,"long":-77.1568,"zip":"20883"},
-{"country":"Pennsylvania","lat":39.9496,"long":-75.1637,"zip":"19109"},
-{"country":"Iowa","lat":41.6727,"long":-93.5722,"zip":"50362"},
-{"country":"District of Columbia","lat":38.9007,"long":-77.0431,"zip":"20503"},
-{"country":"New Mexico","lat":35.6219,"long":-105.8688,"zip":"87505"},
-{"country":"District of Columbia","lat":38.9067,"long":-77.0312,"zip":"20005"},
-{"country":"Nebraska","lat":41.2955,"long":-96.1008,"zip":"68164"},
-{"country":"Connecticut","lat":41.786,"long":-72.6758,"zip":"06120"},
-{"country":"Texas","lat":32.7714,"long":-97.2915,"zip":"76192"},
-{"country":"Texas","lat":30.0211,"long":-94.1157,"zip":"77705"},
-{"country":"South Carolina","lat":34.006,"long":-80.9708,"zip":"29215"},
-{"country":"Virginia","lat":36.7978,"long":-76.1759,"zip":"23464"},
-{"country":"Wisconsin","lat":42.9559,"long":-87.9933,"zip":"53220"},
-{"country":"Missouri","lat":39.7076,"long":-94.8677,"zip":"64504"},
-{"country":"Nevada","lat":36.2204,"long":-115.1458,"zip":"89087"},
-{"country":"New Jersey","lat":40.7918,"long":-74.2452,"zip":"07188"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"90060"},
-{"country":"Tennessee","lat":35.9901,"long":-83.9622,"zip":"37995"},
-{"country":"Wisconsin","lat":43.0696,"long":-89.4239,"zip":"53710"},
-{"country":"Texas","lat":31.6948,"long":-106.3,"zip":"88574"},
-{"country":"Washington","lat":47.6536,"long":-117.4317,"zip":"99210"},
-{"country":"New York","lat":40.8085,"long":-73.9198,"zip":"10454"},
-{"country":"Missouri","lat":38.6531,"long":-90.2435,"zip":"63150"},
-{"country":"Alabama","lat":34.734,"long":-86.5229,"zip":"35895"},
-{"country":"Texas","lat":32.7714,"long":-97.2915,"zip":"76198"},
-{"country":"Missouri","lat":38.7196,"long":-90.27,"zip":"63136"},
-{"country":"Iowa","lat":41.5444,"long":-93.6192,"zip":"50315"},
-{"country":"Minnesota","lat":44.8055,"long":-93.7665,"zip":"55564"},
-{"country":"Virginia","lat":38.8836,"long":-77.1395,"zip":"22205"},
-{"country":"Texas","lat":29.6889,"long":-95.4341,"zip":"77025"},
-{"country":"California","lat":33.754,"long":-117.7919,"zip":"92705"},
-{"country":"Nebraska","lat":40.8247,"long":-96.6252,"zip":"68505"},
-{"country":"New York","lat":40.7262,"long":-73.9796,"zip":"10009"},
-{"country":"Massachusetts","lat":42.36,"long":-71.0545,"zip":"02109"},
-{"country":"New York","lat":40.7808,"long":-73.9772,"zip":"10160"},
-{"country":"New York","lat":42.6149,"long":-73.9708,"zip":"12227"},
-{"country":"Washington","lat":47.6964,"long":-117.4399,"zip":"99205"},
-{"country":"Texas","lat":32.7403,"long":-96.5618,"zip":"75185"},
-{"country":"Illinois","lat":42.3254,"long":-89.1705,"zip":"61105"},
-{"country":"Texas","lat":29.2243,"long":-94.9637,"zip":"77554"},
-{"country":"New York","lat":42.7198,"long":-73.8207,"zip":"12205"},
-{"country":"Illinois","lat":41.8397,"long":-88.0887,"zip":"60567"},
-{"country":"Kentucky","lat":38.0702,"long":-84.591,"zip":"40510"},
-{"country":"Massachusetts","lat":42.3611,"long":-71.0682,"zip":"02114"},
-{"country":"District of Columbia","lat":38.8976,"long":-77.027,"zip":"20530"},
-{"country":"Texas","lat":31.6948,"long":-106.3,"zip":"79923"},
-{"country":"Missouri","lat":39.0351,"long":-94.5467,"zip":"64130"},
-{"country":"New York","lat":43.0214,"long":-76.1977,"zip":"13217"},
-{"country":"Texas","lat":33.0005,"long":-96.8314,"zip":"75287"},
-{"country":"California","lat":36.7991,"long":-119.8016,"zip":"93704"},
-{"country":"Washington","lat":46.6288,"long":-120.574,"zip":"98907"},
-{"country":"New Mexico","lat":35.0443,"long":-106.6729,"zip":"87140"},
-{"country":"Oregon","lat":44.0185,"long":-123.0998,"zip":"97405"},
-{"country":"Texas","lat":32.69,"long":-96.9177,"zip":"75236"},
-{"country":"Illinois","lat":41.8397,"long":-88.0887,"zip":"60567"},
-{"country":"Michigan","lat":43.4732,"long":-83.9514,"zip":"48604"},
-{"country":"Nevada","lat":36.2471,"long":-115.221,"zip":"89130"},
-{"country":"Texas","lat":35.4015,"long":-101.8951,"zip":"79105"},
-{"country":"Virginia","lat":37.5593,"long":-77.4471,"zip":"23208"},
-{"country":"California","lat":33.0169,"long":-116.846,"zip":"92030"},
-{"country":"California","lat":37.2602,"long":-121.7709,"zip":"95138"},
-{"country":"Washington","lat":47.1126,"long":-122.7794,"zip":"98516"},
-{"country":"Florida","lat":27.1675,"long":-82.381,"zip":"34276"},
-{"country":"Nebraska","lat":40.9317,"long":-96.6045,"zip":"68517"},
-{"country":"Nevada","lat":39.5224,"long":-119.8353,"zip":"89505"},
-{"country":"Florida","lat":29.0838,"long":-81.0336,"zip":"32128"},
-{"country":"California","lat":34.1781,"long":-118.4574,"zip":"91411"},
-{"country":"Texas","lat":33.0277,"long":-96.6777,"zip":"75074"},
-{"country":"Texas","lat":32.8479,"long":-96.974,"zip":"75062"},
-{"country":"Florida","lat":30.2231,"long":-81.7556,"zip":"32244"},
-{"country":"Pennsylvania","lat":42.1827,"long":-80.0649,"zip":"16550"},
-{"country":"California","lat":37.7848,"long":-122.7278,"zip":"94142"},
-{"country":"Tennessee","lat":35.0981,"long":-89.9825,"zip":"38114"},
-{"country":"Ohio","lat":39.9671,"long":-83.0044,"zip":"43215"},
-{"country":"Texas","lat":30.4501,"long":-97.4865,"zip":"78715"},
-{"country":"Ohio","lat":39.9671,"long":-83.0044,"zip":"43215"},
-{"country":"Wisconsin","lat":43.0696,"long":-89.4239,"zip":"53726"},
-{"country":"New York","lat":42.7684,"long":-78.8871,"zip":"14263"},
-{"country":"Connecticut","lat":41.3657,"long":-72.9275,"zip":"06721"},
-{"country":"California","lat":36.7991,"long":-119.8016,"zip":"93704"},
-{"country":"Illinois","lat":41.5454,"long":-88.1299,"zip":"60435"},
-{"country":"Texas","lat":31.6948,"long":-106.3,"zip":"79945"},
-{"country":"Virginia","lat":37.5313,"long":-77.4161,"zip":"23242"},
-{"country":"Oklahoma","lat":36.1398,"long":-96.0297,"zip":"74184"},
-{"country":"Florida","lat":25.5593,"long":-80.3483,"zip":"33190"},
-{"country":"Indiana","lat":39.7795,"long":-86.1328,"zip":"46266"},
-{"country":"New Jersey","lat":39.9186,"long":-75.1078,"zip":"08104"},
-{"country":"Virginia","lat":37.2742,"long":-79.9579,"zip":"24024"},
-{"country":"West Virginia","lat":38.2968,"long":-81.5547,"zip":"25321"},
-{"country":"Massachusetts","lat":42.3615,"long":-71.0604,"zip":"02203"},
-{"country":"Nevada","lat":39.1678,"long":-119.7764,"zip":"89714"},
-{"country":"Minnesota","lat":44.9608,"long":-93.1216,"zip":"55103"},
-{"country":"New York","lat":40.7808,"long":-73.9772,"zip":"10203"},
-{"country":"South Carolina","lat":34.006,"long":-80.9708,"zip":"29220"},
-{"country":"Oregon","lat":45.5137,"long":-122.5569,"zip":"97216"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20508"},
-{"country":"New York","lat":40.7808,"long":-73.9772,"zip":"10090"},
-{"country":"Washington","lat":47.0662,"long":-122.1132,"zip":"98411"},
-{"country":"Texas","lat":32.3766,"long":-95.1252,"zip":"75705"},
-{"country":"Arkansas","lat":34.8337,"long":-92.3289,"zip":"72118"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20041"},
-{"country":"California","lat":37.3729,"long":-121.856,"zip":"95133"},
-{"country":"Illinois","lat":40.1399,"long":-88.1961,"zip":"61825"},
-{"country":"New York","lat":40.7086,"long":-74.0087,"zip":"10045"},
-{"country":"Georgia","lat":33.786,"long":-84.3514,"zip":"30306"},
-{"country":"Oregon","lat":44.9364,"long":-123.0381,"zip":"97312"},
-{"country":"Alabama","lat":33.5446,"long":-86.9292,"zip":"35231"},
-{"country":"California","lat":34.1378,"long":-118.2424,"zip":"91205"},
-{"country":"Ohio","lat":41.6767,"long":-83.5573,"zip":"43610"},
-{"country":"West Virginia","lat":38.2968,"long":-81.5547,"zip":"25336"},
-{"country":"Pennsylvania","lat":40.3086,"long":-76.8464,"zip":"17140"},
-{"country":"Arizona","lat":33.4061,"long":-112.0265,"zip":"85040"},
-{"country":"Idaho","lat":43.4599,"long":-116.244,"zip":"83727"},
-{"country":"Pennsylvania","lat":40.2944,"long":-76.8938,"zip":"17121"},
-{"country":"Indiana","lat":40.2023,"long":-85.4082,"zip":"47306"},
-{"country":"Massachusetts","lat":42.3823,"long":-71.0323,"zip":"02298"},
-{"country":"Virginia","lat":37.1959,"long":-76.5248,"zip":"23612"},
-{"country":"California","lat":34.169,"long":-118.3442,"zip":"91505"},
-{"country":"New Jersey","lat":40.9166,"long":-74.174,"zip":"07505"},
-{"country":"California","lat":34.1781,"long":-118.4574,"zip":"91411"},
-{"country":"California","lat":33.7678,"long":-118.1994,"zip":"90831"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20580"},
-{"country":"Florida","lat":26.6459,"long":-80.4303,"zip":"33499"},
-{"country":"California","lat":37.8044,"long":-122.2698,"zip":"94616"},
-{"country":"Illinois","lat":41.9229,"long":-87.6483,"zip":"60614"},
-{"country":"Arizona","lat":33.4368,"long":-111.7129,"zip":"85205"},
-{"country":"District of Columbia","lat":38.9,"long":-77.0369,"zip":"20062"},
-{"country":"West Virginia","lat":38.2968,"long":-81.5547,"zip":"25326"},
-{"country":"Ohio","lat":41.6782,"long":-83.4972,"zip":"43666"},
-{"country":"Michigan","lat":42.3809,"long":-83.0409,"zip":"48211"},
-{"country":"California","lat":33.7529,"long":-116.0556,"zip":"92878"},
-{"country":"Texas","lat":29.7629,"long":-95.3629,"zip":"77250"},
-{"country":"Florida","lat":26.0143,"long":-81.5856,"zip":"34114"},
-{"country":"Ohio","lat":40.8259,"long":-81.3399,"zip":"44705"},
-{"country":"Massachusetts","lat":42.3319,"long":-71.254,"zip":"02162"},
-{"country":"Hawaii","lat":21.2987,"long":-157.6985,"zip":"96825"},
-{"country":"Virginia","lat":37.5242,"long":-77.4932,"zip":"23293"},
-{"country":"Florida","lat":26.2288,"long":-80.1635,"zip":"33069"},
-{"country":"Maryland","lat":38.8893,"long":-75.8612,"zip":"21684"},
-{"country":"Florida","lat":30.3449,"long":-81.6831,"zip":"32230"},
-{"country":"Massachusetts","lat":42.2492,"long":-71.8108,"zip":"01610"},
-{"country":"Texas","lat":30.0211,"long":-94.1157,"zip":"77705"},
-{"country":"Illinois","lat":39.7495,"long":-89.606,"zip":"62764"},
-{"country":"Florida","lat":27.709,"long":-80.5726,"zip":"32964"},
-{"country":"Kentucky","lat":38.0283,"long":-84.4715,"zip":"40524"},
-{"country":"Texas","lat":32.7673,"long":-96.7776,"zip":"75397"},
-{"country":"Oklahoma","lat":36.175,"long":-95.8477,"zip":"74116"},
-{"country":"New Jersey","lat":40.7918,"long":-74.2452,"zip":"07188"},
-{"country":"Texas","lat":29.6218,"long":-95.4819,"zip":"77085"},
-{"country":"California","lat":34.0515,"long":-118.2559,"zip":"90189"},
-{"country":"Connecticut","lat":41.7691,"long":-72.701,"zip":"06105"},
-{"country":"Florida","lat":25.9894,"long":-80.2153,"zip":"33023"},
-{"country":"Georgia","lat":33.8123,"long":-84.2819,"zip":"30033"},
-{"country":"Minnesota","lat":44.0225,"long":-92.4668,"zip":"55905"},
-{"country":"Washington","lat":47.7161,"long":-122.3004,"zip":"98175"},
-{"country":"Texas","lat":29.4375,"long":-98.4616,"zip":"78296"},
-{"country":"South Carolina","lat":34.8497,"long":-82.4538,"zip":"29610"},
-{"country":"Oregon","lat":45.484,"long":-122.5973,"zip":"97206"},
-{"country":"Texas","lat":29.834,"long":-95.4342,"zip":"77206"},
-{"country":"Maryland","lat":38.9982,"long":-77.0338,"zip":"20910"},
-{"country":"Florida","lat":26.1457,"long":-80.4483,"zip":"33075"},
-{"country":"Texas","lat":29.834,"long":-95.4342,"zip":"77218"},
-{"country":"Florida","lat":27.709,"long":-80.5726,"zip":"32964"},
-{"country":"California","lat":37.7848,"long":-122.7278,"zip":"94147"},
-{"country":"Missouri","lat":39.11,"long":-94.4401,"zip":"64054"},
-{"country":"Virginia","lat":38.7192,"long":-77.1073,"zip":"22309"},
-{"country":"Wyoming","lat":41.1084,"long":-104.8107,"zip":"82007"},
-{"country":"Tennessee","lat":35.0018,"long":-85.3138,"zip":"37410"},
-{"country":"Iowa","lat":41.6727,"long":-93.5722,"zip":"50936"},
-{"country":"Minnesota","lat":44.8756,"long":-93.2553,"zip":"55423"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20215"},
-{"country":"California","lat":37.9625,"long":-121.2624,"zip":"95205"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"91131"},
-{"country":"Minnesota","lat":45.5289,"long":-94.5933,"zip":"56398"},
-{"country":"Michigan","lat":42.5991,"long":-83.1789,"zip":"48098"},
-{"country":"Arkansas","lat":34.6725,"long":-92.3529,"zip":"72209"},
-{"country":"Tennessee","lat":35.0018,"long":-85.3138,"zip":"37410"},
-{"country":"Minnesota","lat":44.9762,"long":-93.2759,"zip":"55402"},
-{"country":"Michigan","lat":42.4981,"long":-83.2058,"zip":"48076"},
-{"country":"Michigan","lat":43.0113,"long":-83.7108,"zip":"48555"},
-{"country":"Missouri","lat":38.9033,"long":-92.1022,"zip":"65211"},
-{"country":"California","lat":32.7423,"long":-117.0947,"zip":"92105"},
-{"country":"Michigan","lat":42.3349,"long":-83.1801,"zip":"48126"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20392"},
-{"country":"South Carolina","lat":34.8882,"long":-81.969,"zip":"29319"},
-{"country":"Colorado","lat":39.7388,"long":-104.4083,"zip":"80279"},
-{"country":"New York","lat":40.7918,"long":-73.9448,"zip":"10029"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20508"},
-{"country":"Minnesota","lat":44.9034,"long":-93.374,"zip":"55436"},
-{"country":"Nebraska","lat":40.8529,"long":-96.7943,"zip":"68524"},
-{"country":"Florida","lat":27.2866,"long":-82.477,"zip":"34233"},
-{"country":"Ohio","lat":41.028,"long":-81.4632,"zip":"44315"},
-{"country":"District of Columbia","lat":38.9381,"long":-77.086,"zip":"20016"},
-{"country":"Georgia","lat":33.7629,"long":-84.4226,"zip":"31165"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"91131"},
-{"country":"Missouri","lat":39.1042,"long":-94.4923,"zip":"64125"},
-{"country":"Wisconsin","lat":43.0696,"long":-89.4239,"zip":"53726"},
-{"country":"Florida","lat":27.872,"long":-82.4388,"zip":"33661"},
-{"country":"Arizona","lat":33.4226,"long":-111.7236,"zip":"85025"},
-{"country":"Georgia","lat":32.491,"long":-84.8741,"zip":"31914"},
-{"country":"Virginia","lat":38.8545,"long":-77.052,"zip":"22244"},
-{"country":"New York","lat":41.0247,"long":-73.7781,"zip":"10606"},
-{"country":"Connecticut","lat":41.0957,"long":-73.4285,"zip":"06854"},
-{"country":"Arizona","lat":33.5623,"long":-112.0559,"zip":"85020"},
-{"country":"Arizona","lat":33.6968,"long":-111.8892,"zip":"85255"},
-{"country":"California","lat":33.8635,"long":-118.1801,"zip":"90805"},
-{"country":"Florida","lat":28.1147,"long":-82.3678,"zip":"33647"},
-{"country":"California","lat":37.799,"long":-122.2337,"zip":"94622"},
-{"country":"Florida","lat":25.9098,"long":-80.3889,"zip":"33018"},
-{"country":"Ohio","lat":39.9523,"long":-83.078,"zip":"43204"},
-{"country":"Georgia","lat":33.386,"long":-82.091,"zip":"30919"},
-{"country":"Indiana","lat":39.7795,"long":-86.1328,"zip":"46266"},
-{"country":"Tennessee","lat":35.0981,"long":-89.9825,"zip":"38114"},
-{"country":"Texas","lat":30.3752,"long":-97.9007,"zip":"78732"},
-{"country":"Minnesota","lat":44.9034,"long":-93.374,"zip":"55436"},
-{"country":"Indiana","lat":39.849,"long":-86.272,"zip":"46254"},
-{"country":"New York","lat":40.7808,"long":-73.9772,"zip":"10249"},
-{"country":"Tennessee","lat":36.0986,"long":-86.8219,"zip":"37215"},
-{"country":"California","lat":33.7541,"long":-117.474,"zip":"92883"},
-{"country":"Connecticut","lat":41.7691,"long":-72.701,"zip":"06105"},
-{"country":"Oklahoma","lat":36.1398,"long":-96.0297,"zip":"74141"},
-{"country":"New York","lat":40.7069,"long":-74.0082,"zip":"10270"},
-{"country":"Ohio","lat":39.9671,"long":-83.0044,"zip":"43215"},
-{"country":"Ohio","lat":41.0704,"long":-80.6931,"zip":"44511"},
-{"country":"Ohio","lat":41.076,"long":-81.4644,"zip":"44305"},
-{"country":"South Carolina","lat":32.7976,"long":-79.9493,"zip":"29403"},
-{"country":"New York","lat":40.7651,"long":-73.9858,"zip":"10019"},
-{"country":"California","lat":37.2568,"long":-121.8896,"zip":"95118"},
-{"country":"Ohio","lat":41.028,"long":-81.4632,"zip":"44315"},
-{"country":"Pennsylvania","lat":40.0422,"long":-75.0244,"zip":"19136"},
-{"country":"Louisiana","lat":30.0877,"long":-89.8462,"zip":"70129"},
-{"country":"Pennsylvania","lat":40.6934,"long":-75.4712,"zip":"18105"},
-{"country":"Colorado","lat":39.7388,"long":-104.4083,"zip":"80161"},
-{"country":"Washington","lat":47.6115,"long":-122.1162,"zip":"98008"},
-{"country":"New Jersey","lat":39.9186,"long":-75.1078,"zip":"08104"},
-{"country":"Minnesota","lat":45.071,"long":-92.9391,"zip":"55115"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"91186"},
-{"country":"Texas","lat":31.6948,"long":-106.3,"zip":"79989"},
-{"country":"District of Columbia","lat":38.892,"long":-77.0452,"zip":"20551"},
-{"country":"Iowa","lat":42.4011,"long":-96.372,"zip":"51110"},
-{"country":"Nevada","lat":39.1678,"long":-119.7764,"zip":"89714"},
-{"country":"Nebraska","lat":40.8063,"long":-96.6545,"zip":"68510"},
-{"country":"Florida","lat":26.5354,"long":-80.1124,"zip":"33436"},
-{"country":"South Carolina","lat":33.6993,"long":-81.6465,"zip":"29805"},
-{"country":"Virginia","lat":37.5498,"long":-77.4588,"zip":"23220"},
-{"country":"Michigan","lat":42.2719,"long":-83.1545,"zip":"48217"},
-{"country":"California","lat":37.7509,"long":-122.4153,"zip":"94110"},
-{"country":"Oregon","lat":45.5806,"long":-122.3748,"zip":"97286"},
-{"country":"South Carolina","lat":33.9937,"long":-81.0199,"zip":"29208"},
-{"country":"Texas","lat":29.4375,"long":-98.4616,"zip":"78278"},
-{"country":"Hawaii","lat":21.3062,"long":-157.8585,"zip":"96810"},
-{"country":"Virginia","lat":38.0339,"long":-78.4924,"zip":"22903"},
-{"country":"West Virginia","lat":38.4096,"long":-82.369,"zip":"25705"},
-{"country":"California","lat":33.7866,"long":-118.2987,"zip":"90610"},
-{"country":"New Hampshire","lat":43.0059,"long":-71.0132,"zip":"00214"},
-{"country":"Texas","lat":30.1288,"long":-95.4239,"zip":"77386"},
-{"country":"Arizona","lat":32.215,"long":-110.7758,"zip":"85748"},
-{"country":"Massachusetts","lat":42.3231,"long":-71.0846,"zip":"02119"},
-{"country":"Georgia","lat":33.9464,"long":-83.9912,"zip":"30245"},
-{"country":"Pennsylvania","lat":40.0343,"long":-75.1213,"zip":"19120"},
-{"country":"Florida","lat":26.3771,"long":-81.7334,"zip":"34135"},
-{"country":"Florida","lat":29.6813,"long":-82.3539,"zip":"32610"},
-{"country":"Idaho","lat":43.3233,"long":-111.7822,"zip":"83405"},
-{"country":"Ohio","lat":39.7505,"long":-84.2686,"zip":"45490"},
-{"country":"Mississippi","lat":32.3218,"long":-90.1771,"zip":"39210"},
-{"country":"Illinois","lat":41.9699,"long":-87.7603,"zip":"60630"},
-{"country":"Colorado","lat":39.734,"long":-105.0259,"zip":"80204"},
-{"country":"Texas","lat":33.0005,"long":-96.8314,"zip":"75287"},
-{"country":"Illinois","lat":40.7857,"long":-89.6177,"zip":"61640"},
-{"country":"Maryland","lat":38.9982,"long":-77.0338,"zip":"20910"},
-{"country":"New York","lat":42.6568,"long":-73.7605,"zip":"12210"},
-{"country":"Maryland","lat":39.0668,"long":-76.9969,"zip":"20904"},
-{"country":"Indiana","lat":41.0938,"long":-85.0707,"zip":"46896"},
-{"country":"Kansas","lat":38.8999,"long":-94.832,"zip":"66276"},
-{"country":"Tennessee","lat":36.3158,"long":-82.3838,"zip":"37605"},
-{"country":"Connecticut","lat":41.7918,"long":-72.7188,"zip":"06152"},
-{"country":"Tennessee","lat":36.3158,"long":-82.3838,"zip":"37605"},
-{"country":"Arkansas","lat":34.7269,"long":-92.344,"zip":"72204"},
-{"country":"Illinois","lat":41.7458,"long":-87.6054,"zip":"60619"},
-{"country":"Wisconsin","lat":43.0696,"long":-89.4239,"zip":"53726"},
-{"country":"Iowa","lat":41.6727,"long":-93.5722,"zip":"50347"},
-{"country":"North Carolina","lat":35.26,"long":-80.8042,"zip":"28220"},
-{"country":"Texas","lat":32.7673,"long":-96.7776,"zip":"75387"},
-{"country":"California","lat":33.8994,"long":-117.9063,"zip":"92835"},
-{"country":"Nebraska","lat":41.2933,"long":-95.9361,"zip":"68110"},
-{"country":"New York","lat":40.8662,"long":-73.9221,"zip":"10034"},
-{"country":"Tennessee","lat":36.1866,"long":-86.7852,"zip":"37235"},
-{"country":"Texas","lat":33.3934,"long":-94.3404,"zip":"75507"},
-{"country":"Virginia","lat":38.8318,"long":-77.2888,"zip":"22156"},
-{"country":"New York","lat":40.7808,"long":-73.9772,"zip":"10249"},
-{"country":"Alabama","lat":33.5446,"long":-86.9292,"zip":"35231"},
-{"country":"Oklahoma","lat":36.1499,"long":-95.7923,"zip":"74108"},
-{"country":"Florida","lat":29.6813,"long":-82.3539,"zip":"32627"},
-{"country":"Missouri","lat":38.6531,"long":-90.2435,"zip":"63196"},
-{"country":"Tennessee","lat":35.2017,"long":-89.9715,"zip":"38161"},
-{"country":"Pennsylvania","lat":40.5051,"long":-80.1155,"zip":"15225"},
-{"country":"Iowa","lat":41.6727,"long":-93.5722,"zip":"50347"},
-{"country":"Florida","lat":27.8918,"long":-82.7248,"zip":"33758"},
-{"country":"North Carolina","lat":36.0275,"long":-80.2073,"zip":"27110"},
-{"country":"Arkansas","lat":34.8019,"long":-92.1894,"zip":"72231"},
-{"country":"New York","lat":41.119,"long":-73.733,"zip":"10633"},
-{"country":"Idaho","lat":43.4599,"long":-116.244,"zip":"83732"},
-{"country":"California","lat":33.9187,"long":-117.8892,"zip":"92822"},
-{"country":"California","lat":37.9625,"long":-121.2624,"zip":"95205"},
-{"country":"Washington","lat":47.6536,"long":-117.4317,"zip":"99210"},
-{"country":"North Carolina","lat":35.244,"long":-80.7387,"zip":"28215"},
-{"country":"Virginia","lat":38.7192,"long":-77.1073,"zip":"22309"},
-{"country":"Texas","lat":29.4413,"long":-98.4793,"zip":"78215"},
-{"country":"New York","lat":40.7808,"long":-73.9772,"zip":"10249"},
-{"country":"Pennsylvania","lat":39.9473,"long":-75.15,"zip":"19172"},
-{"country":"Ohio","lat":41.028,"long":-81.4632,"zip":"44315"},
-{"country":"California","lat":36.7464,"long":-119.6397,"zip":"93762"},
-{"country":"Florida","lat":26.6654,"long":-80.0929,"zip":"33416"},
-{"country":"Louisiana","lat":30.033,"long":-89.8826,"zip":"70165"},
-{"country":"District of Columbia","lat":38.8933,"long":-77.0146,"zip":"20220"},
-{"country":"Texas","lat":31.1282,"long":-97.7469,"zip":"76544"},
-{"country":"Texas","lat":31.6948,"long":-106.3,"zip":"88535"},
-{"country":"South Carolina","lat":32.7831,"long":-79.937,"zip":"29424"},
-{"country":"Texas","lat":32.7673,"long":-96.7776,"zip":"75049"},
-{"country":"Texas","lat":32.7673,"long":-96.7776,"zip":"75342"},
-{"country":"Virginia","lat":37.5593,"long":-77.4471,"zip":"23213"},
-{"country":"Massachusetts","lat":42.362,"long":-71.083,"zip":"02142"},
-{"country":"California","lat":38.3774,"long":-121.4444,"zip":"94297"},
-{"country":"California","lat":38.5568,"long":-121.4929,"zip":"95818"},
-{"country":"Florida","lat":26.9668,"long":-81.9545,"zip":"33982"},
-{"country":"Alabama","lat":30.6589,"long":-88.178,"zip":"36628"},
-{"country":"Texas","lat":31.6948,"long":-106.3,"zip":"88584"},
-{"country":"Mississippi","lat":32.3113,"long":-90.3972,"zip":"39236"},
-{"country":"Virginia","lat":38.8808,"long":-77.113,"zip":"22225"},
-{"country":"California","lat":34.1781,"long":-118.4574,"zip":"91411"},
-{"country":"Texas","lat":31.8767,"long":-102.4375,"zip":"79764"},
-{"country":"Florida","lat":27.4272,"long":-82.4387,"zip":"34282"},
-{"country":"Tennessee","lat":35.9901,"long":-83.9622,"zip":"37939"},
-{"country":"District of Columbia","lat":38.8874,"long":-77.0047,"zip":"20557"},
-{"country":"Ohio","lat":39.1668,"long":-84.5382,"zip":"45254"},
-{"country":"New Mexico","lat":35.6219,"long":-105.8688,"zip":"87505"},
-{"country":"Florida","lat":28.5059,"long":-82.4226,"zip":"34605"},
-{"country":"Nebraska","lat":41.2955,"long":-96.1008,"zip":"68164"},
-{"country":"Arizona","lat":33.2781,"long":-111.7096,"zip":"85297"},
-{"country":"California","lat":38.3774,"long":-121.4444,"zip":"94245"},
-{"country":"Ohio","lat":39.7505,"long":-84.2686,"zip":"45454"},
-{"country":"Texas","lat":31.3902,"long":-97.7993,"zip":"76598"}]
+[
+   {
+     "country": "Louisiana",
+     "lat": 30.0877,
+     "long": -89.8462,
+     "zip": "70129"
+   },
+   {
+     "country": "North Dakota",
+     "lat": 47.9335,
+     "long": -97.3944,
+     "zip": "58207"
+   },
+   {
+     "country": "New Jersey",
+     "lat": 40.702,
+     "long": -74.089,
+     "zip": "07305"
+   },
+   {
+     "country": "New Mexico",
+     "lat": 35.0443,
+     "long": -106.6729,
+     "zip": "87180"
+   },
+   {
+     "country": "Oklahoma",
+     "lat": 35.4794,
+     "long": -97.5017,
+     "zip": "73104"
+   },
+   {
+     "country": "Minnesota",
+     "lat": 44.9806,
+     "long": -93.1771,
+     "zip": "55108"
+   },
+   {
+     "country": "Florida",
+     "lat": 27.6705,
+     "long": -82.7119,
+     "zip": "33715"
+   },
+   {
+     "country": "Ohio",
+     "lat": 40.7911,
+     "long": -81.4169,
+     "zip": "44710"
+   },
+   {
+     "country": "California",
+     "lat": 37.7786,
+     "long": -122.4892,
+     "zip": "94121"
+   },
+   {
+     "country": "Florida",
+     "lat": 30.4478,
+     "long": -84.3211,
+     "zip": "32304"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 39.9832,
+     "long": -75.7481,
+     "zip": "19495"
+   },
+   {
+     "country": "Florida",
+     "lat": 26.5747,
+     "long": -80.0794,
+     "zip": "33462"
+   },
+   {
+     "country": "Kentucky",
+     "lat": 37.1376,
+     "long": -84.1156,
+     "zip": "40745"
+   },
+   {
+     "country": "Florida",
+     "lat": 30.1949,
+     "long": -85.6727,
+     "zip": "32405"
+   },
+   {
+     "country": "Minnesota",
+     "lat": 45.1907,
+     "long": -93.3021,
+     "zip": "55448"
+   },
+   {
+     "country": "California",
+     "lat": 34.4329,
+     "long": -119.8371,
+     "zip": "93106"
+   },
+   {
+     "country": "California",
+     "lat": 39.8032,
+     "long": -121.8673,
+     "zip": "95973"
+   },
+   {
+     "country": "Massachusetts",
+     "lat": 41.6913,
+     "long": -70.9355,
+     "zip": "02745"
+   },
+   {
+     "country": "Idaho",
+     "lat": 43.3233,
+     "long": -111.7822,
+     "zip": "83405"
+   },
+   {
+     "country": "Texas",
+     "lat": 31.6948,
+     "long": -106.3,
+     "zip": "88574"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.4181,
+     "long": -80.0526,
+     "zip": "15220"
+   },
+   {
+     "country": "New York",
+     "lat": 40.8111,
+     "long": -73.9642,
+     "zip": "10115"
+   },
+   {
+     "country": "Delaware",
+     "lat": 39.5645,
+     "long": -75.597,
+     "zip": "19897"
+   },
+   {
+     "country": "Missouri",
+     "lat": 38.6531,
+     "long": -90.2435,
+     "zip": "63150"
+   },
+   {
+     "country": "Washington",
+     "lat": 47.1042,
+     "long": -122.87,
+     "zip": "98506"
+   },
+   {
+     "country": "Utah",
+     "lat": 41.1894,
+     "long": -111.9489,
+     "zip": "84403"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 35.9918,
+     "long": -83.8496,
+     "zip": "37914"
+   },
+   {
+     "country": "Ohio",
+     "lat": 40.0028,
+     "long": -83.0164,
+     "zip": "43210"
+   },
+   {
+     "country": "Alabama",
+     "lat": 32.3834,
+     "long": -86.2434,
+     "zip": "36109"
+   },
+   {
+     "country": "Illinois",
+     "lat": 39.7495,
+     "long": -89.606,
+     "zip": "62776"
+   },
+   {
+     "country": "West Virginia",
+     "lat": 38.2968,
+     "long": -81.5547,
+     "zip": "25321"
+   },
+   {
+     "country": "Arizona",
+     "lat": 33.2765,
+     "long": -112.1872,
+     "zip": "85072"
+   },
+   {
+     "country": "Florida",
+     "lat": 26.6644,
+     "long": -80.1741,
+     "zip": "33411"
+   },
+   {
+     "country": "Florida",
+     "lat": 26.6599,
+     "long": -81.8934,
+     "zip": "33915"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.8808,
+     "long": -77.113,
+     "zip": "22212"
+   },
+   {
+     "country": "California",
+     "lat": 37.6802,
+     "long": -121.9215,
+     "zip": "94660"
+   },
+   {
+     "country": "Washington",
+     "lat": 47.4441,
+     "long": -122.3249,
+     "zip": "98148"
+   },
+   {
+     "country": "California",
+     "lat": 37.7848,
+     "long": -122.7278,
+     "zip": "94142"
+   },
+   {
+     "country": "New Jersey",
+     "lat": 40.43,
+     "long": -74.4173,
+     "zip": "08922"
+   },
+   {
+     "country": "Florida",
+     "lat": 28.5679,
+     "long": -81.3258,
+     "zip": "32813"
+   },
+   {
+     "country": "Florida",
+     "lat": 27.8546,
+     "long": -82.7545,
+     "zip": "33777"
+   },
+   {
+     "country": "Texas",
+     "lat": 33.3934,
+     "long": -94.3404,
+     "zip": "75507"
+   },
+   {
+     "country": "Alabama",
+     "lat": 34.734,
+     "long": -86.5229,
+     "zip": "35815"
+   },
+   {
+     "country": "Nevada",
+     "lat": 39.7699,
+     "long": -119.6027,
+     "zip": "89510"
+   },
+   {
+     "country": "Texas",
+     "lat": 30.4455,
+     "long": -97.6595,
+     "zip": "78764"
+   },
+   {
+     "country": "Ohio",
+     "lat": 39.7982,
+     "long": -84.3211,
+     "zip": "45426"
+   },
+   {
+     "country": "Michigan",
+     "lat": 42.7325,
+     "long": -84.5587,
+     "zip": "48956"
+   },
+   {
+     "country": "New Jersey",
+     "lat": 40.2805,
+     "long": -74.712,
+     "zip": "08650"
+   },
+   {
+     "country": "Indiana",
+     "lat": 41.5968,
+     "long": -86.293,
+     "zip": "46620"
+   },
+   {
+     "country": "Iowa",
+     "lat": 41.6727,
+     "long": -93.5722,
+     "zip": "50305"
+   },
+   {
+     "country": "Nevada",
+     "lat": 39.4814,
+     "long": -119.8591,
+     "zip": "89519"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 35.7977,
+     "long": -78.6253,
+     "zip": "27626"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 35.7977,
+     "long": -78.6253,
+     "zip": "27635"
+   },
+   {
+     "country": "Ohio",
+     "lat": 41.1075,
+     "long": -81.5006,
+     "zip": "44310"
+   },
+   {
+     "country": "New York",
+     "lat": 42.6149,
+     "long": -73.9708,
+     "zip": "12242"
+   },
+   {
+     "country": "California",
+     "lat": 33.7866,
+     "long": -118.2987,
+     "zip": "93584"
+   },
+   {
+     "country": "Georgia",
+     "lat": 32.8067,
+     "long": -83.6913,
+     "zip": "31296"
+   },
+   {
+     "country": "Missouri",
+     "lat": 38.6128,
+     "long": -90.2185,
+     "zip": "63104"
+   },
+   {
+     "country": "Colorado",
+     "lat": 39.7388,
+     "long": -104.4083,
+     "zip": "80044"
+   },
+   {
+     "country": "South Carolina",
+     "lat": 34.5271,
+     "long": -82.7087,
+     "zip": "29625"
+   },
+   {
+     "country": "Louisiana",
+     "lat": 29.6779,
+     "long": -90.0901,
+     "zip": "70033"
+   },
+   {
+     "country": "Washington",
+     "lat": 47.2484,
+     "long": -122.4644,
+     "zip": "98405"
+   },
+   {
+     "country": "Ohio",
+     "lat": 39.6749,
+     "long": -84.1136,
+     "zip": "45440"
+   },
+   {
+     "country": "Ohio",
+     "lat": 40.854,
+     "long": -81.4278,
+     "zip": "44760"
+   },
+   {
+     "country": "Missouri",
+     "lat": 39.0351,
+     "long": -94.5467,
+     "zip": "64130"
+   },
+   {
+     "country": "California",
+     "lat": 33.7866,
+     "long": -118.2987,
+     "zip": "90050"
+   },
+   {
+     "country": "Georgia",
+     "lat": 33.8444,
+     "long": -84.474,
+     "zip": "30380"
+   },
+   {
+     "country": "California",
+     "lat": 37.3983,
+     "long": -122.0006,
+     "zip": "94089"
+   },
+   {
+     "country": "Texas",
+     "lat": 31.1282,
+     "long": -97.7469,
+     "zip": "76544"
+   },
+   {
+     "country": "Texas",
+     "lat": 31.6403,
+     "long": -97.0963,
+     "zip": "76705"
+   },
+   {
+     "country": "California",
+     "lat": 35.4369,
+     "long": -119.0679,
+     "zip": "93399"
+   },
+   {
+     "country": "Kansas",
+     "lat": 38.9613,
+     "long": -94.8222,
+     "zip": "66220"
+   },
+   {
+     "country": "Alaska",
+     "lat": 61.1872,
+     "long": -149.8804,
+     "zip": "99599"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 35.26,
+     "long": -80.8042,
+     "zip": "28256"
+   },
+   {
+     "country": "Florida",
+     "lat": 27.7391,
+     "long": -82.6435,
+     "zip": "33705"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.7673,
+     "long": -96.7776,
+     "zip": "75277"
+   },
+   {
+     "country": "Texas",
+     "lat": 27.777,
+     "long": -97.4632,
+     "zip": "78465"
+   },
+   {
+     "country": "South Dakota",
+     "lat": 43.6746,
+     "long": -96.7913,
+     "zip": "57193"
+   },
+   {
+     "country": "New York",
+     "lat": 43.286,
+     "long": -77.6843,
+     "zip": "14652"
+   },
+   {
+     "country": "Oklahoma",
+     "lat": 35.6665,
+     "long": -97.4798,
+     "zip": "73034"
+   },
+   {
+     "country": "Arkansas",
+     "lat": 34.8019,
+     "long": -92.1894,
+     "zip": "72231"
+   },
+   {
+     "country": "Kentucky",
+     "lat": 38.2306,
+     "long": -85.7905,
+     "zip": "40210"
+   },
+   {
+     "country": "Indiana",
+     "lat": 39.7795,
+     "long": -86.1328,
+     "zip": "46247"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.905,
+     "long": -77.0162,
+     "zip": "20205"
+   },
+   {
+     "country": "Alabama",
+     "lat": 32.2334,
+     "long": -86.2085,
+     "zip": "36177"
+   },
+   {
+     "country": "New Hampshire",
+     "lat": 42.9521,
+     "long": -71.6539,
+     "zip": "03105"
+   },
+   {
+     "country": "California",
+     "lat": 37.3894,
+     "long": -121.8868,
+     "zip": "95194"
+   },
+   {
+     "country": "Nebraska",
+     "lat": 41.2933,
+     "long": -95.9361,
+     "zip": "68110"
+   },
+   {
+     "country": "Hawaii",
+     "lat": 21.351,
+     "long": -157.8795,
+     "zip": "96820"
+   },
+   {
+     "country": "New York",
+     "lat": 43.0354,
+     "long": -76.1282,
+     "zip": "13210"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8933,
+     "long": -77.0146,
+     "zip": "20260"
+   },
+   {
+     "country": "Florida",
+     "lat": 28.4429,
+     "long": -81.4026,
+     "zip": "32859"
+   },
+   {
+     "country": "Missouri",
+     "lat": 39.035,
+     "long": -94.3567,
+     "zip": "64179"
+   },
+   {
+     "country": "Connecticut",
+     "lat": 41.3087,
+     "long": -72.9271,
+     "zip": "06510"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.7629,
+     "long": -95.3629,
+     "zip": "77250"
+   },
+   {
+     "country": "California",
+     "lat": 37.31,
+     "long": -121.9011,
+     "zip": "95155"
+   },
+   {
+     "country": "Missouri",
+     "lat": 38.5814,
+     "long": -90.2625,
+     "zip": "63116"
+   },
+   {
+     "country": "Virginia",
+     "lat": 37.5242,
+     "long": -77.4932,
+     "zip": "23260"
+   },
+   {
+     "country": "Michigan",
+     "lat": 42.7286,
+     "long": -84.5517,
+     "zip": "48919"
+   },
+   {
+     "country": "Minnesota",
+     "lat": 45.0159,
+     "long": -93.4719,
+     "zip": "55480"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8933,
+     "long": -77.0146,
+     "zip": "20215"
+   },
+   {
+     "country": "Wisconsin",
+     "lat": 43.0174,
+     "long": -87.5697,
+     "zip": "53285"
+   },
+   {
+     "country": "Ohio",
+     "lat": 40.8956,
+     "long": -81.433,
+     "zip": "44720"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.9015,
+     "long": -95.2848,
+     "zip": "77050"
+   },
+   {
+     "country": "Georgia",
+     "lat": 33.8444,
+     "long": -84.474,
+     "zip": "30343"
+   },
+   {
+     "country": "California",
+     "lat": 33.7867,
+     "long": -117.8742,
+     "zip": "92668"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 35.26,
+     "long": -80.8042,
+     "zip": "28242"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.7853,
+     "long": -95.1852,
+     "zip": "77015"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.0018,
+     "long": -75.1179,
+     "zip": "19093"
+   },
+   {
+     "country": "Georgia",
+     "lat": 33.9321,
+     "long": -83.3525,
+     "zip": "30605"
+   },
+   {
+     "country": "California",
+     "lat": 33.8356,
+     "long": -117.9132,
+     "zip": "92825"
+   },
+   {
+     "country": "South Carolina",
+     "lat": 34.006,
+     "long": -80.9708,
+     "zip": "29215"
+   },
+   {
+     "country": "West Virginia",
+     "lat": 38.2968,
+     "long": -81.5547,
+     "zip": "25362"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8933,
+     "long": -77.0146,
+     "zip": "20067"
+   },
+   {
+     "country": "Virginia",
+     "lat": 37.0318,
+     "long": -76.3199,
+     "zip": "23663"
+   },
+   {
+     "country": "Alabama",
+     "lat": 30.6341,
+     "long": -88.0846,
+     "zip": "36605"
+   },
+   {
+     "country": "Nevada",
+     "lat": 36.3265,
+     "long": -115.3398,
+     "zip": "89166"
+   },
+   {
+     "country": "New York",
+     "lat": 42.6853,
+     "long": -73.8253,
+     "zip": "12222"
+   },
+   {
+     "country": "Arizona",
+     "lat": 33.2765,
+     "long": -112.1872,
+     "zip": "85005"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 35.1316,
+     "long": -80.8577,
+     "zip": "28210"
+   },
+   {
+     "country": "New York",
+     "lat": 43.0123,
+     "long": -76.1452,
+     "zip": "13205"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.7714,
+     "long": -97.2915,
+     "zip": "76178"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 36.0807,
+     "long": -80.0244,
+     "zip": "27404"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.4189,
+     "long": -98.6895,
+     "zip": "78245"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.7543,
+     "long": -95.3609,
+     "zip": "77010"
+   },
+   {
+     "country": "Nebraska",
+     "lat": 40.8063,
+     "long": -96.6545,
+     "zip": "68510"
+   },
+   {
+     "country": "California",
+     "lat": 37.7848,
+     "long": -122.7278,
+     "zip": "94164"
+   },
+   {
+     "country": "Illinois",
+     "lat": 41.9399,
+     "long": -87.6528,
+     "zip": "60657"
+   },
+   {
+     "country": "Oklahoma",
+     "lat": 36.175,
+     "long": -95.8477,
+     "zip": "74116"
+   },
+   {
+     "country": "Connecticut",
+     "lat": 41.3657,
+     "long": -72.9275,
+     "zip": "06538"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 35.2017,
+     "long": -89.9715,
+     "zip": "38150"
+   },
+   {
+     "country": "Ohio",
+     "lat": 41.1039,
+     "long": -80.6436,
+     "zip": "44555"
+   },
+   {
+     "country": "California",
+     "lat": 33.8359,
+     "long": -117.9086,
+     "zip": "92805"
+   },
+   {
+     "country": "Kansas",
+     "lat": 39.0583,
+     "long": -95.7095,
+     "zip": "66606"
+   },
+   {
+     "country": "Ohio",
+     "lat": 41.6868,
+     "long": -83.4394,
+     "zip": "43635"
+   },
+   {
+     "country": "Arizona",
+     "lat": 33.4226,
+     "long": -111.7236,
+     "zip": "85025"
+   },
+   {
+     "country": "Indiana",
+     "lat": 41.0977,
+     "long": -85.1189,
+     "zip": "46805"
+   },
+   {
+     "country": "Florida",
+     "lat": 27.2427,
+     "long": -82.4751,
+     "zip": "34238"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.8808,
+     "long": -77.113,
+     "zip": "22217"
+   },
+   {
+     "country": "Florida",
+     "lat": 25.5584,
+     "long": -80.4582,
+     "zip": "33283"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 35.26,
+     "long": -80.8042,
+     "zip": "28272"
+   },
+   {
+     "country": "Georgia",
+     "lat": 33.9328,
+     "long": -84.556,
+     "zip": "30061"
+   },
+   {
+     "country": "Ohio",
+     "lat": 41.6525,
+     "long": -83.5085,
+     "zip": "43605"
+   },
+   {
+     "country": "Florida",
+     "lat": 26.1097,
+     "long": -80.3215,
+     "zip": "33325"
+   },
+   {
+     "country": "Florida",
+     "lat": 26.1457,
+     "long": -80.4483,
+     "zip": "33075"
+   },
+   {
+     "country": "Illinois",
+     "lat": 41.993,
+     "long": -87.7596,
+     "zip": "60646"
+   },
+   {
+     "country": "South Carolina",
+     "lat": 34.0635,
+     "long": -81.0265,
+     "zip": "29203"
+   },
+   {
+     "country": "California",
+     "lat": 33.0279,
+     "long": -117.0856,
+     "zip": "92127"
+   },
+   {
+     "country": "Florida",
+     "lat": 27.7898,
+     "long": -82.7243,
+     "zip": "33710"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.4413,
+     "long": -98.4793,
+     "zip": "78215"
+   },
+   {
+     "country": "New Jersey",
+     "lat": 40.7107,
+     "long": -74.2131,
+     "zip": "07112"
+   },
+   {
+     "country": "Oregon",
+     "lat": 45.5653,
+     "long": -122.6448,
+     "zip": "97211"
+   },
+   {
+     "country": "Arizona",
+     "lat": 31.9701,
+     "long": -111.8907,
+     "zip": "85725"
+   },
+   {
+     "country": "Washington",
+     "lat": 47.1591,
+     "long": -122.5485,
+     "zip": "98498"
+   },
+   {
+     "country": "Texas",
+     "lat": 33.6021,
+     "long": -101.876,
+     "zip": "79415"
+   },
+   {
+     "country": "Alabama",
+     "lat": 30.6589,
+     "long": -88.178,
+     "zip": "36641"
+   },
+   {
+     "country": "Wisconsin",
+     "lat": 42.9559,
+     "long": -87.9933,
+     "zip": "53220"
+   },
+   {
+     "country": "Arizona",
+     "lat": 33.2781,
+     "long": -111.7096,
+     "zip": "85297"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.834,
+     "long": -95.4342,
+     "zip": "77223"
+   },
+   {
+     "country": "Alaska",
+     "lat": 64.8561,
+     "long": -146.276,
+     "zip": "99790"
+   },
+   {
+     "country": "Massachusetts",
+     "lat": 41.9705,
+     "long": -70.7014,
+     "zip": "02305"
+   },
+   {
+     "country": "Arizona",
+     "lat": 32.2519,
+     "long": -110.82,
+     "zip": "85715"
+   },
+   {
+     "country": "Kentucky",
+     "lat": 38.189,
+     "long": -85.6768,
+     "zip": "40287"
+   },
+   {
+     "country": "Colorado",
+     "lat": 39.592,
+     "long": -105.1328,
+     "zip": "80127"
+   },
+   {
+     "country": "Florida",
+     "lat": 26.6492,
+     "long": -81.6167,
+     "zip": "33972"
+   },
+   {
+     "country": "Texas",
+     "lat": 30.4036,
+     "long": -97.7526,
+     "zip": "78759"
+   },
+   {
+     "country": "Florida",
+     "lat": 27.872,
+     "long": -82.4388,
+     "zip": "33686"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.4344,
+     "long": -80.0248,
+     "zip": "15250"
+   },
+   {
+     "country": "Nebraska",
+     "lat": 41.2949,
+     "long": -96.0546,
+     "zip": "68134"
+   },
+   {
+     "country": "Ohio",
+     "lat": 41.0704,
+     "long": -80.6931,
+     "zip": "44511"
+   },
+   {
+     "country": "South Carolina",
+     "lat": 32.8488,
+     "long": -79.8577,
+     "zip": "29416"
+   },
+   {
+     "country": "New York",
+     "lat": 43.1367,
+     "long": -77.6481,
+     "zip": "14619"
+   },
+   {
+     "country": "North Dakota",
+     "lat": 46.9346,
+     "long": -97.2297,
+     "zip": "58122"
+   },
+   {
+     "country": "Georgia",
+     "lat": 34.0268,
+     "long": -84.2422,
+     "zip": "30022"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.3365,
+     "long": -77.4366,
+     "zip": "22405"
+   },
+   {
+     "country": "Oklahoma",
+     "lat": 35.233,
+     "long": -97.4067,
+     "zip": "73071"
+   },
+   {
+     "country": "Illinois",
+     "lat": 42.0586,
+     "long": -87.6845,
+     "zip": "60208"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 41.2722,
+     "long": -75.8801,
+     "zip": "18763"
+   },
+   {
+     "country": "Missouri",
+     "lat": 39.035,
+     "long": -94.3567,
+     "zip": "64193"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8933,
+     "long": -77.0146,
+     "zip": "20231"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 36.0275,
+     "long": -80.2073,
+     "zip": "27116"
+   },
+   {
+     "country": "California",
+     "lat": 36.7949,
+     "long": -119.7604,
+     "zip": "93726"
+   },
+   {
+     "country": "Utah",
+     "lat": 40.6681,
+     "long": -111.9083,
+     "zip": "84135"
+   },
+   {
+     "country": "California",
+     "lat": 33.7661,
+     "long": -117.9738,
+     "zip": "92844"
+   },
+   {
+     "country": "Florida",
+     "lat": 28.5642,
+     "long": -82.4165,
+     "zip": "34611"
+   },
+   {
+     "country": "West Virginia",
+     "lat": 38.4134,
+     "long": -82.2774,
+     "zip": "25775"
+   },
+   {
+     "country": "Georgia",
+     "lat": 31.55,
+     "long": -84.0612,
+     "zip": "31704"
+   },
+   {
+     "country": "California",
+     "lat": 33.7866,
+     "long": -118.2987,
+     "zip": "90076"
+   },
+   {
+     "country": "New York",
+     "lat": 40.7808,
+     "long": -73.9772,
+     "zip": "10275"
+   },
+   {
+     "country": "California",
+     "lat": 38.3774,
+     "long": -121.4444,
+     "zip": "94273"
+   },
+   {
+     "country": "California",
+     "lat": 38.025,
+     "long": -121.2972,
+     "zip": "95210"
+   },
+   {
+     "country": "California",
+     "lat": 38.3774,
+     "long": -121.4444,
+     "zip": "94245"
+   },
+   {
+     "country": "California",
+     "lat": 33.9377,
+     "long": -117.1851,
+     "zip": "92555"
+   },
+   {
+     "country": "Wisconsin",
+     "lat": 43.0696,
+     "long": -89.4239,
+     "zip": "53710"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.892,
+     "long": -77.0452,
+     "zip": "20551"
+   },
+   {
+     "country": "New York",
+     "lat": 42.6149,
+     "long": -73.9708,
+     "zip": "12232"
+   },
+   {
+     "country": "Texas",
+     "lat": 27.777,
+     "long": -97.4632,
+     "zip": "78475"
+   },
+   {
+     "country": "Texas",
+     "lat": 30.2906,
+     "long": -95.3832,
+     "zip": "77305"
+   },
+   {
+     "country": "Florida",
+     "lat": 26.1219,
+     "long": -80.1436,
+     "zip": "33336"
+   },
+   {
+     "country": "South Carolina",
+     "lat": 34.8001,
+     "long": -82.3932,
+     "zip": "29605"
+   },
+   {
+     "country": "New York",
+     "lat": 42.9255,
+     "long": -78.7481,
+     "zip": "14225"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.4344,
+     "long": -80.0248,
+     "zip": "15266"
+   },
+   {
+     "country": "Nevada",
+     "lat": 39.1678,
+     "long": -119.7764,
+     "zip": "89714"
+   },
+   {
+     "country": "California",
+     "lat": 37.3329,
+     "long": -121.8916,
+     "zip": "95113"
+   },
+   {
+     "country": "Michigan",
+     "lat": 42.2922,
+     "long": -85.633,
+     "zip": "49006"
+   },
+   {
+     "country": "Montana",
+     "lat": 47.116,
+     "long": -114.0498,
+     "zip": "59806"
+   },
+   {
+     "country": "Kansas",
+     "lat": 39.085,
+     "long": -94.6356,
+     "zip": "66105"
+   },
+   {
+     "country": "New York",
+     "lat": 40.7808,
+     "long": -73.9772,
+     "zip": "10090"
+   },
+   {
+     "country": "Minnesota",
+     "lat": 46.8147,
+     "long": -92.1998,
+     "zip": "55811"
+   },
+   {
+     "country": "Ohio",
+     "lat": 41.1257,
+     "long": -80.6277,
+     "zip": "44505"
+   },
+   {
+     "country": "Florida",
+     "lat": 28.3822,
+     "long": -81.569,
+     "zip": "32830"
+   },
+   {
+     "country": "Massachusetts",
+     "lat": 42.4464,
+     "long": -71.4594,
+     "zip": "01813"
+   },
+   {
+     "country": "California",
+     "lat": 38.4631,
+     "long": -122.99,
+     "zip": "94975"
+   },
+   {
+     "country": "California",
+     "lat": 37.3924,
+     "long": -121.9623,
+     "zip": "95054"
+   },
+   {
+     "country": "Oklahoma",
+     "lat": 35.5514,
+     "long": -97.4075,
+     "zip": "73124"
+   },
+   {
+     "country": "Ohio",
+     "lat": 39.7155,
+     "long": -84.1637,
+     "zip": "45419"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 35.0018,
+     "long": -85.3138,
+     "zip": "37410"
+   },
+   {
+     "country": "Georgia",
+     "lat": 33.8444,
+     "long": -84.474,
+     "zip": "31196"
+   },
+   {
+     "country": "Iowa",
+     "lat": 41.5386,
+     "long": -90.6115,
+     "zip": "52804"
+   },
+   {
+     "country": "Missouri",
+     "lat": 39.2627,
+     "long": -94.697,
+     "zip": "64153"
+   },
+   {
+     "country": "California",
+     "lat": 36.7464,
+     "long": -119.6397,
+     "zip": "93709"
+   },
+   {
+     "country": "Minnesota",
+     "lat": 45.0632,
+     "long": -93.3811,
+     "zip": "55428"
+   },
+   {
+     "country": "Texas",
+     "lat": 35.4015,
+     "long": -101.8951,
+     "zip": "79182"
+   },
+   {
+     "country": "West Virginia",
+     "lat": 38.354,
+     "long": -81.6394,
+     "zip": "25389"
+   },
+   {
+     "country": "Wisconsin",
+     "lat": 43.0174,
+     "long": -87.5697,
+     "zip": "53234"
+   },
+   {
+     "country": "North Dakota",
+     "lat": 46.8165,
+     "long": -100.7805,
+     "zip": "58505"
+   },
+   {
+     "country": "Florida",
+     "lat": 25.7341,
+     "long": -80.4068,
+     "zip": "33175"
+   },
+   {
+     "country": "Texas",
+     "lat": 33.0005,
+     "long": -96.8314,
+     "zip": "75287"
+   },
+   {
+     "country": "Hawaii",
+     "lat": 21.3095,
+     "long": -157.863,
+     "zip": "96850"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.338,
+     "long": -75.978,
+     "zip": "19610"
+   },
+   {
+     "country": "Arkansas",
+     "lat": 34.8337,
+     "long": -92.3289,
+     "zip": "72118"
+   },
+   {
+     "country": "Louisiana",
+     "lat": 30.033,
+     "long": -89.8826,
+     "zip": "70174"
+   },
+   {
+     "country": "Nevada",
+     "lat": 36.2204,
+     "long": -115.1458,
+     "zip": "89087"
+   },
+   {
+     "country": "Georgia",
+     "lat": 33.413,
+     "long": -82.1337,
+     "zip": "30905"
+   },
+   {
+     "country": "Colorado",
+     "lat": 38.8247,
+     "long": -104.562,
+     "zip": "80945"
+   },
+   {
+     "country": "Wisconsin",
+     "lat": 43.0982,
+     "long": -89.3242,
+     "zip": "53779"
+   },
+   {
+     "country": "California",
+     "lat": 33.7866,
+     "long": -118.2987,
+     "zip": "90410"
+   },
+   {
+     "country": "Maryland",
+     "lat": 38.9585,
+     "long": -77.1153,
+     "zip": "20816"
+   },
+   {
+     "country": "West Virginia",
+     "lat": 38.4142,
+     "long": -81.7582,
+     "zip": "25313"
+   },
+   {
+     "country": "Michigan",
+     "lat": 43.3869,
+     "long": -84.0926,
+     "zip": "48609"
+   },
+   {
+     "country": "Utah",
+     "lat": 40.6681,
+     "long": -111.9083,
+     "zip": "84130"
+   },
+   {
+     "country": "Nevada",
+     "lat": 35.9279,
+     "long": -114.9721,
+     "zip": "89155"
+   },
+   {
+     "country": "Missouri",
+     "lat": 38.6171,
+     "long": -90.4504,
+     "zip": "63131"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 35.6124,
+     "long": -88.8412,
+     "zip": "38308"
+   },
+   {
+     "country": "Connecticut",
+     "lat": 41.3657,
+     "long": -72.9275,
+     "zip": "06533"
+   },
+   {
+     "country": "Illinois",
+     "lat": 39.7495,
+     "long": -89.606,
+     "zip": "62756"
+   },
+   {
+     "country": "New York",
+     "lat": 40.7808,
+     "long": -73.9772,
+     "zip": "10203"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.7942,
+     "long": -96.7652,
+     "zip": "75358"
+   },
+   {
+     "country": "California",
+     "lat": 36.7991,
+     "long": -119.8016,
+     "zip": "93704"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8941,
+     "long": -77.0251,
+     "zip": "20535"
+   },
+   {
+     "country": "Indiana",
+     "lat": 41.6255,
+     "long": -86.2433,
+     "zip": "46614"
+   },
+   {
+     "country": "Florida",
+     "lat": 27.1675,
+     "long": -82.381,
+     "zip": "34276"
+   },
+   {
+     "country": "Minnesota",
+     "lat": 44.9608,
+     "long": -93.1216,
+     "zip": "55103"
+   },
+   {
+     "country": "Massachusetts",
+     "lat": 42.3253,
+     "long": -71.1122,
+     "zip": "02163"
+   },
+   {
+     "country": "Maryland",
+     "lat": 39.0883,
+     "long": -77.1568,
+     "zip": "20883"
+   },
+   {
+     "country": "Texas",
+     "lat": 27.7262,
+     "long": -97.4078,
+     "zip": "78415"
+   },
+   {
+     "country": "Indiana",
+     "lat": 37.9971,
+     "long": -87.575,
+     "zip": "47737"
+   },
+   {
+     "country": "New York",
+     "lat": 40.8171,
+     "long": -73.7416,
+     "zip": "11024"
+   },
+   {
+     "country": "Indiana",
+     "lat": 39.7673,
+     "long": -86.1606,
+     "zip": "46207"
+   },
+   {
+     "country": "Florida",
+     "lat": 30.6143,
+     "long": -87.2758,
+     "zip": "32575"
+   },
+   {
+     "country": "Oregon",
+     "lat": 44.0185,
+     "long": -123.0998,
+     "zip": "97405"
+   },
+   {
+     "country": "Colorado",
+     "lat": 38.1286,
+     "long": -104.5523,
+     "zip": "81010"
+   },
+   {
+     "country": "Arizona",
+     "lat": 32.0848,
+     "long": -110.7122,
+     "zip": "85732"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 35.26,
+     "long": -80.8042,
+     "zip": "28299"
+   },
+   {
+     "country": "Washington",
+     "lat": 47.6536,
+     "long": -117.4317,
+     "zip": "99210"
+   },
+   {
+     "country": "California",
+     "lat": 33.7866,
+     "long": -118.2987,
+     "zip": "91210"
+   },
+   {
+     "country": "New York",
+     "lat": 43.174,
+     "long": -77.5637,
+     "zip": "14609"
+   },
+   {
+     "country": "Kentucky",
+     "lat": 38.189,
+     "long": -85.6768,
+     "zip": "40233"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 35.7977,
+     "long": -78.6253,
+     "zip": "27621"
+   },
+   {
+     "country": "New York",
+     "lat": 42.6149,
+     "long": -73.9708,
+     "zip": "12247"
+   },
+   {
+     "country": "Washington",
+     "lat": 46.6288,
+     "long": -120.574,
+     "zip": "98907"
+   },
+   {
+     "country": "Illinois",
+     "lat": 39.7495,
+     "long": -89.606,
+     "zip": "62764"
+   },
+   {
+     "country": "Texas",
+     "lat": 31.6948,
+     "long": -106.3,
+     "zip": "88546"
+   },
+   {
+     "country": "Nevada",
+     "lat": 36.1378,
+     "long": -115.3261,
+     "zip": "89135"
+   },
+   {
+     "country": "Oklahoma",
+     "lat": 36.1398,
+     "long": -96.0297,
+     "zip": "74184"
+   },
+   {
+     "country": "New Mexico",
+     "lat": 32.3052,
+     "long": -106.7863,
+     "zip": "88006"
+   },
+   {
+     "country": "Alabama",
+     "lat": 33.5446,
+     "long": -86.9292,
+     "zip": "35254"
+   },
+   {
+     "country": "Texas",
+     "lat": 30.6521,
+     "long": -96.341,
+     "zip": "77806"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.7582,
+     "long": -97.1003,
+     "zip": "76011"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.8318,
+     "long": -77.2888,
+     "zip": "22119"
+   },
+   {
+     "country": "Florida",
+     "lat": 28.06,
+     "long": -82.4079,
+     "zip": "33620"
+   },
+   {
+     "country": "Missouri",
+     "lat": 38.6185,
+     "long": -90.2564,
+     "zip": "63110"
+   },
+   {
+     "country": "Colorado",
+     "lat": 39.6472,
+     "long": -105.0795,
+     "zip": "80235"
+   },
+   {
+     "country": "Ohio",
+     "lat": 39.1802,
+     "long": -84.4204,
+     "zip": "45213"
+   },
+   {
+     "country": "California",
+     "lat": 33.7866,
+     "long": -118.2987,
+     "zip": "91117"
+   },
+   {
+     "country": "Florida",
+     "lat": 27.8444,
+     "long": -82.7963,
+     "zip": "34642"
+   },
+   {
+     "country": "Kentucky",
+     "lat": 38.189,
+     "long": -85.6768,
+     "zip": "40256"
+   },
+   {
+     "country": "Colorado",
+     "lat": 38.8558,
+     "long": -104.7134,
+     "zip": "80915"
+   },
+   {
+     "country": "Connecticut",
+     "lat": 41.2091,
+     "long": -73.2086,
+     "zip": "06606"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 35.6004,
+     "long": -82.4918,
+     "zip": "28805"
+   },
+   {
+     "country": "Massachusetts",
+     "lat": 42.1707,
+     "long": -72.6048,
+     "zip": "01152"
+   },
+   {
+     "country": "Ohio",
+     "lat": 41.6857,
+     "long": -81.6728,
+     "zip": "44177"
+   },
+   {
+     "country": "California",
+     "lat": 33.7529,
+     "long": -116.0556,
+     "zip": "92519"
+   },
+   {
+     "country": "California",
+     "lat": 34.84,
+     "long": -115.9671,
+     "zip": "92424"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.4375,
+     "long": -98.4616,
+     "zip": "78265"
+   },
+   {
+     "country": "Colorado",
+     "lat": 39.7388,
+     "long": -104.4083,
+     "zip": "80270"
+   },
+   {
+     "country": "New York",
+     "lat": 43.286,
+     "long": -77.6843,
+     "zip": "14639"
+   },
+   {
+     "country": "California",
+     "lat": 32.6513,
+     "long": -116.9852,
+     "zip": "91913"
+   },
+   {
+     "country": "Alabama",
+     "lat": 32.3544,
+     "long": -86.2843,
+     "zip": "36195"
+   },
+   {
+     "country": "Wisconsin",
+     "lat": 43.0528,
+     "long": -87.9353,
+     "zip": "53205"
+   },
+   {
+     "country": "Ohio",
+     "lat": 41.4509,
+     "long": -81.619,
+     "zip": "44105"
+   },
+   {
+     "country": "Texas",
+     "lat": 30.3264,
+     "long": -97.7713,
+     "zip": "78789"
+   },
+   {
+     "country": "Illinois",
+     "lat": 41.9699,
+     "long": -87.7603,
+     "zip": "60630"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.7887,
+     "long": -96.7676,
+     "zip": "75226"
+   },
+   {
+     "country": "Florida",
+     "lat": 30.351,
+     "long": -81.5061,
+     "zip": "32225"
+   },
+   {
+     "country": "Connecticut",
+     "lat": 41.7665,
+     "long": -72.6933,
+     "zip": "06160"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 39.9772,
+     "long": -75.2545,
+     "zip": "19151"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.884,
+     "long": -77.0221,
+     "zip": "20414"
+   },
+   {
+     "country": "New York",
+     "lat": 40.7086,
+     "long": -74.0087,
+     "zip": "10045"
+   },
+   {
+     "country": "Colorado",
+     "lat": 39.7467,
+     "long": -104.8384,
+     "zip": "80045"
+   },
+   {
+     "country": "Indiana",
+     "lat": 41.1465,
+     "long": -85.1232,
+     "zip": "46825"
+   },
+   {
+     "country": "Washington",
+     "lat": 47.6564,
+     "long": -122.3048,
+     "zip": "98195"
+   },
+   {
+     "country": "California",
+     "lat": 37.3866,
+     "long": -121.897,
+     "zip": "95150"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.7086,
+     "long": -96.7955,
+     "zip": "75216"
+   },
+   {
+     "country": "Texas",
+     "lat": 31.8767,
+     "long": -102.4375,
+     "zip": "79764"
+   },
+   {
+     "country": "Oklahoma",
+     "lat": 35.5514,
+     "long": -97.4075,
+     "zip": "73167"
+   },
+   {
+     "country": "Connecticut",
+     "lat": 41.786,
+     "long": -72.6758,
+     "zip": "06120"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 34.0881,
+     "long": -77.8526,
+     "zip": "28410"
+   },
+   {
+     "country": "New Jersey",
+     "lat": 40.9252,
+     "long": -74.1781,
+     "zip": "07522"
+   },
+   {
+     "country": "Florida",
+     "lat": 27.9139,
+     "long": -82.7157,
+     "zip": "34620"
+   },
+   {
+     "country": "Maryland",
+     "lat": 39.0763,
+     "long": -77.1234,
+     "zip": "20851"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.3766,
+     "long": -95.1252,
+     "zip": "75705"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 35.2017,
+     "long": -89.9715,
+     "zip": "38197"
+   },
+   {
+     "country": "Ohio",
+     "lat": 40.7779,
+     "long": -82.4613,
+     "zip": "44905"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.8836,
+     "long": -77.1395,
+     "zip": "22205"
+   },
+   {
+     "country": "New Mexico",
+     "lat": 35.0443,
+     "long": -106.6729,
+     "zip": "87190"
+   },
+   {
+     "country": "Ohio",
+     "lat": 41.6857,
+     "long": -81.6728,
+     "zip": "44197"
+   },
+   {
+     "country": "Utah",
+     "lat": 40.7259,
+     "long": -111.9394,
+     "zip": "84199"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.0401,
+     "long": -78.4851,
+     "zip": "22908"
+   },
+   {
+     "country": "Ohio",
+     "lat": 41.4335,
+     "long": -81.6323,
+     "zip": "44125"
+   },
+   {
+     "country": "California",
+     "lat": 38.596,
+     "long": -121.3978,
+     "zip": "95865"
+   },
+   {
+     "country": "Florida",
+     "lat": 27.9951,
+     "long": -82.4046,
+     "zip": "33610"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.0365,
+     "long": -75.1451,
+     "zip": "19141"
+   },
+   {
+     "country": "Texas",
+     "lat": 30.352,
+     "long": -97.7151,
+     "zip": "78710"
+   },
+   {
+     "country": "Missouri",
+     "lat": 38.6383,
+     "long": -90.4271,
+     "zip": "63167"
+   },
+   {
+     "country": "New Jersey",
+     "lat": 39.9186,
+     "long": -75.1078,
+     "zip": "08104"
+   },
+   {
+     "country": "Utah",
+     "lat": 41.2553,
+     "long": -111.9567,
+     "zip": "84409"
+   },
+   {
+     "country": "Florida",
+     "lat": 28.0726,
+     "long": -82.559,
+     "zip": "33625"
+   },
+   {
+     "country": "Florida",
+     "lat": 25.5584,
+     "long": -80.4582,
+     "zip": "33245"
+   },
+   {
+     "country": "Connecticut",
+     "lat": 41.0888,
+     "long": -73.5435,
+     "zip": "06905"
+   },
+   {
+     "country": "Massachusetts",
+     "lat": 42.3611,
+     "long": -71.0682,
+     "zip": "02114"
+   },
+   {
+     "country": "Texas",
+     "lat": 31.5915,
+     "long": -97.0823,
+     "zip": "76796"
+   },
+   {
+     "country": "California",
+     "lat": 37.3811,
+     "long": -122.3348,
+     "zip": "94064"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.4112,
+     "long": -95.2899,
+     "zip": "75799"
+   },
+   {
+     "country": "Nevada",
+     "lat": 36.2235,
+     "long": -115.2655,
+     "zip": "89125"
+   },
+   {
+     "country": "Texas",
+     "lat": 31.6948,
+     "long": -106.3,
+     "zip": "79940"
+   },
+   {
+     "country": "New York",
+     "lat": 40.7808,
+     "long": -73.9772,
+     "zip": "10125"
+   },
+   {
+     "country": "Washington",
+     "lat": 47.6063,
+     "long": -122.3308,
+     "zip": "98127"
+   },
+   {
+     "country": "California",
+     "lat": 34.6019,
+     "long": -117.8123,
+     "zip": "93591"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.834,
+     "long": -95.4342,
+     "zip": "77299"
+   },
+   {
+     "country": "Iowa",
+     "lat": 41.6727,
+     "long": -93.5722,
+     "zip": "50981"
+   },
+   {
+     "country": "Michigan",
+     "lat": 43.6375,
+     "long": -84.2568,
+     "zip": "48670"
+   },
+   {
+     "country": "Alabama",
+     "lat": 33.5446,
+     "long": -86.9292,
+     "zip": "35220"
+   },
+   {
+     "country": "Texas",
+     "lat": 30.085,
+     "long": -94.2607,
+     "zip": "77713"
+   },
+   {
+     "country": "Colorado",
+     "lat": 39.7439,
+     "long": -104.9876,
+     "zip": "80291"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.8808,
+     "long": -77.113,
+     "zip": "22225"
+   },
+   {
+     "country": "California",
+     "lat": 38.4386,
+     "long": -122.6727,
+     "zip": "95405"
+   },
+   {
+     "country": "California",
+     "lat": 33.0169,
+     "long": -116.846,
+     "zip": "92030"
+   },
+   {
+     "country": "Utah",
+     "lat": 40.7372,
+     "long": -111.8581,
+     "zip": "84105"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.7971,
+     "long": -95.4958,
+     "zip": "77055"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8933,
+     "long": -77.0146,
+     "zip": "20591"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.7192,
+     "long": -77.1073,
+     "zip": "22309"
+   },
+   {
+     "country": "Alabama",
+     "lat": 30.6589,
+     "long": -88.178,
+     "zip": "36628"
+   },
+   {
+     "country": "West Virginia",
+     "lat": 39.6505,
+     "long": -79.944,
+     "zip": "26505"
+   },
+   {
+     "country": "Nevada",
+     "lat": 39.5224,
+     "long": -119.8353,
+     "zip": "89505"
+   },
+   {
+     "country": "New Jersey",
+     "lat": 40.2805,
+     "long": -74.712,
+     "zip": "08603"
+   },
+   {
+     "country": "California",
+     "lat": 34.1378,
+     "long": -118.2424,
+     "zip": "91205"
+   },
+   {
+     "country": "Washington",
+     "lat": 47.4323,
+     "long": -121.8034,
+     "zip": "98185"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.8318,
+     "long": -77.2888,
+     "zip": "22047"
+   },
+   {
+     "country": "Colorado",
+     "lat": 39.7388,
+     "long": -104.4083,
+     "zip": "80255"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.9164,
+     "long": -76.9948,
+     "zip": "20397"
+   },
+   {
+     "country": "New Jersey",
+     "lat": 40.7324,
+     "long": -74.0431,
+     "zip": "07310"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8933,
+     "long": -77.0146,
+     "zip": "20051"
+   },
+   {
+     "country": "Massachusetts",
+     "lat": 42.3823,
+     "long": -71.0323,
+     "zip": "02298"
+   },
+   {
+     "country": "Missouri",
+     "lat": 39.2829,
+     "long": -94.409,
+     "zip": "64160"
+   },
+   {
+     "country": "Texas",
+     "lat": 35.1885,
+     "long": -101.8165,
+     "zip": "79188"
+   },
+   {
+     "country": "Indiana",
+     "lat": 39.7851,
+     "long": -86.1595,
+     "zip": "46202"
+   },
+   {
+     "country": "New York",
+     "lat": 40.6924,
+     "long": -73.9666,
+     "zip": "11205"
+   },
+   {
+     "country": "New York",
+     "lat": 40.7506,
+     "long": -73.9894,
+     "zip": "10120"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.0018,
+     "long": -75.1179,
+     "zip": "19191"
+   },
+   {
+     "country": "California",
+     "lat": 38.3774,
+     "long": -121.4444,
+     "zip": "94230"
+   },
+   {
+     "country": "New York",
+     "lat": 42.7684,
+     "long": -78.8871,
+     "zip": "14233"
+   },
+   {
+     "country": "Maryland",
+     "lat": 38.8893,
+     "long": -75.8612,
+     "zip": "21684"
+   },
+   {
+     "country": "Texas",
+     "lat": 30.0167,
+     "long": -95.447,
+     "zip": "77090"
+   },
+   {
+     "country": "New York",
+     "lat": 40.8702,
+     "long": -73.8495,
+     "zip": "10469"
+   },
+   {
+     "country": "Massachusetts",
+     "lat": 42.3648,
+     "long": -71.8969,
+     "zip": "01654"
+   },
+   {
+     "country": "Florida",
+     "lat": 30.4061,
+     "long": -87.2917,
+     "zip": "32511"
+   },
+   {
+     "country": "Kentucky",
+     "lat": 38.2149,
+     "long": -85.6245,
+     "zip": "40220"
+   },
+   {
+     "country": "Texas",
+     "lat": 31.7466,
+     "long": -102.567,
+     "zip": "79769"
+   },
+   {
+     "country": "Kentucky",
+     "lat": 38.189,
+     "long": -85.6768,
+     "zip": "40225"
+   },
+   {
+     "country": "Washington",
+     "lat": 45.6231,
+     "long": -122.5767,
+     "zip": "98664"
+   },
+   {
+     "country": "West Virginia",
+     "lat": 38.2968,
+     "long": -81.5547,
+     "zip": "25331"
+   },
+   {
+     "country": "Florida",
+     "lat": 30.287,
+     "long": -81.3893,
+     "zip": "32255"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.2944,
+     "long": -76.8938,
+     "zip": "17121"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8933,
+     "long": -77.0146,
+     "zip": "20210"
+   },
+   {
+     "country": "Kansas",
+     "lat": 37.6808,
+     "long": -97.1558,
+     "zip": "67230"
+   },
+   {
+     "country": "Florida",
+     "lat": 26.045,
+     "long": -81.6669,
+     "zip": "33961"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.8158,
+     "long": -77.09,
+     "zip": "22313"
+   },
+   {
+     "country": "Florida",
+     "lat": 25.5584,
+     "long": -80.4582,
+     "zip": "33164"
+   },
+   {
+     "country": "New York",
+     "lat": 43.0421,
+     "long": -76.1046,
+     "zip": "13224"
+   },
+   {
+     "country": "Florida",
+     "lat": 30.2345,
+     "long": -85.692,
+     "zip": "32412"
+   },
+   {
+     "country": "California",
+     "lat": 37.6409,
+     "long": -120.9749,
+     "zip": "95354"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.9335,
+     "long": -95.3981,
+     "zip": "77060"
+   },
+   {
+     "country": "Texas",
+     "lat": 30.7813,
+     "long": -95.5953,
+     "zip": "77343"
+   },
+   {
+     "country": "Louisiana",
+     "lat": 30.033,
+     "long": -89.8826,
+     "zip": "70165"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8959,
+     "long": -77.0211,
+     "zip": "20436"
+   },
+   {
+     "country": "Missouri",
+     "lat": 39.035,
+     "long": -94.3567,
+     "zip": "64142"
+   },
+   {
+     "country": "Minnesota",
+     "lat": 45.071,
+     "long": -92.9391,
+     "zip": "55115"
+   },
+   {
+     "country": "Oklahoma",
+     "lat": 35.599,
+     "long": -97.6251,
+     "zip": "73142"
+   },
+   {
+     "country": "Kansas",
+     "lat": 39.0429,
+     "long": -95.7697,
+     "zip": "66699"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 35.8596,
+     "long": -86.421,
+     "zip": "37131"
+   },
+   {
+     "country": "Virginia",
+     "lat": 36.8686,
+     "long": -76.3552,
+     "zip": "23705"
+   },
+   {
+     "country": "Missouri",
+     "lat": 39.7076,
+     "long": -94.8677,
+     "zip": "64504"
+   },
+   {
+     "country": "Nevada",
+     "lat": 36.0384,
+     "long": -115.0857,
+     "zip": "89074"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.834,
+     "long": -95.4342,
+     "zip": "77228"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 36.1824,
+     "long": -79.806,
+     "zip": "27455"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8933,
+     "long": -77.0146,
+     "zip": "20380"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.6722,
+     "long": -96.7774,
+     "zip": "75241"
+   },
+   {
+     "country": "Texas",
+     "lat": 30.2107,
+     "long": -97.9427,
+     "zip": "78737"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 36.1866,
+     "long": -86.7852,
+     "zip": "37235"
+   },
+   {
+     "country": "Nevada",
+     "lat": 36.086,
+     "long": -115.1471,
+     "zip": "89140"
+   },
+   {
+     "country": "Kentucky",
+     "lat": 38.0283,
+     "long": -84.4715,
+     "zip": "40524"
+   },
+   {
+     "country": "Delaware",
+     "lat": 39.5645,
+     "long": -75.597,
+     "zip": "19714"
+   },
+   {
+     "country": "West Virginia",
+     "lat": 38.1321,
+     "long": -82.4183,
+     "zip": "25709"
+   },
+   {
+     "country": "Colorado",
+     "lat": 38.7378,
+     "long": -104.6459,
+     "zip": "80925"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.7351,
+     "long": -77.0796,
+     "zip": "22036"
+   },
+   {
+     "country": "Virginia",
+     "lat": 37.5593,
+     "long": -77.4471,
+     "zip": "23213"
+   },
+   {
+     "country": "Arizona",
+     "lat": 33.2765,
+     "long": -112.1872,
+     "zip": "85099"
+   },
+   {
+     "country": "Washington",
+     "lat": 47.6536,
+     "long": -117.4317,
+     "zip": "99220"
+   },
+   {
+     "country": "Texas",
+     "lat": 31.6948,
+     "long": -106.3,
+     "zip": "88584"
+   },
+   {
+     "country": "Minnesota",
+     "lat": 45.0058,
+     "long": -93.4193,
+     "zip": "55441"
+   },
+   {
+     "country": "Oklahoma",
+     "lat": 36.0467,
+     "long": -95.8841,
+     "zip": "74133"
+   },
+   {
+     "country": "New York",
+     "lat": 40.6964,
+     "long": -74.0253,
+     "zip": "10004"
+   },
+   {
+     "country": "Virginia",
+     "lat": 36.9216,
+     "long": -76.0171,
+     "zip": "23459"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.0086,
+     "long": -76.5972,
+     "zip": "17405"
+   },
+   {
+     "country": "Oklahoma",
+     "lat": 36.1398,
+     "long": -96.0297,
+     "zip": "74149"
+   },
+   {
+     "country": "New Mexico",
+     "lat": 35.0443,
+     "long": -106.6729,
+     "zip": "87195"
+   },
+   {
+     "country": "California",
+     "lat": 33.6706,
+     "long": -117.7645,
+     "zip": "92619"
+   },
+   {
+     "country": "California",
+     "lat": 37.8471,
+     "long": -122.2223,
+     "zip": "94611"
+   },
+   {
+     "country": "California",
+     "lat": 33.6462,
+     "long": -117.8398,
+     "zip": "92717"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.8158,
+     "long": -77.09,
+     "zip": "22333"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.8318,
+     "long": -77.2888,
+     "zip": "22184"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 36.1866,
+     "long": -86.7852,
+     "zip": "37250"
+   },
+   {
+     "country": "Alabama",
+     "lat": 32.404,
+     "long": -86.2539,
+     "zip": "36114"
+   },
+   {
+     "country": "Texas",
+     "lat": 30.0042,
+     "long": -95.1728,
+     "zip": "77346"
+   },
+   {
+     "country": "Idaho",
+     "lat": 43.4599,
+     "long": -116.244,
+     "zip": "83732"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.7687,
+     "long": -95.3867,
+     "zip": "77260"
+   },
+   {
+     "country": "Indiana",
+     "lat": 39.8326,
+     "long": -86.0836,
+     "zip": "46226"
+   },
+   {
+     "country": "Maryland",
+     "lat": 39.5207,
+     "long": -77.9162,
+     "zip": "21747"
+   },
+   {
+     "country": "Arizona",
+     "lat": 33.4724,
+     "long": -112.1832,
+     "zip": "85035"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.5054,
+     "long": -98.6688,
+     "zip": "78250"
+   },
+   {
+     "country": "Utah",
+     "lat": 40.6681,
+     "long": -111.9083,
+     "zip": "84189"
+   },
+   {
+     "country": "Florida",
+     "lat": 30.3189,
+     "long": -81.6854,
+     "zip": "32204"
+   },
+   {
+     "country": "Louisiana",
+     "lat": 32.6076,
+     "long": -93.7526,
+     "zip": "71137"
+   },
+   {
+     "country": "Alaska",
+     "lat": 64.8544,
+     "long": -147.8469,
+     "zip": "99709"
+   },
+   {
+     "country": "California",
+     "lat": 32.8538,
+     "long": -117.1197,
+     "zip": "92137"
+   },
+   {
+     "country": "Virginia",
+     "lat": 36.9312,
+     "long": -76.2397,
+     "zip": "23520"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 35.0656,
+     "long": -80.8511,
+     "zip": "28247"
+   },
+   {
+     "country": "California",
+     "lat": 34.0447,
+     "long": -118.4487,
+     "zip": "90025"
+   },
+   {
+     "country": "Arizona",
+     "lat": 33.3887,
+     "long": -111.8428,
+     "zip": "85210"
+   },
+   {
+     "country": "Alabama",
+     "lat": 30.6589,
+     "long": -88.178,
+     "zip": "36689"
+   },
+   {
+     "country": "Georgia",
+     "lat": 33.8444,
+     "long": -84.474,
+     "zip": "30386"
+   },
+   {
+     "country": "Florida",
+     "lat": 25.7274,
+     "long": -80.4497,
+     "zip": "33185"
+   },
+   {
+     "country": "Louisiana",
+     "lat": 30.3633,
+     "long": -91.0919,
+     "zip": "70810"
+   },
+   {
+     "country": "Texas",
+     "lat": 31.6948,
+     "long": -106.3,
+     "zip": "88519"
+   },
+   {
+     "country": "Utah",
+     "lat": 40.5927,
+     "long": -111.831,
+     "zip": "84093"
+   },
+   {
+     "country": "Florida",
+     "lat": 26.6459,
+     "long": -80.4303,
+     "zip": "33448"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.7699,
+     "long": -96.743,
+     "zip": "75210"
+   },
+   {
+     "country": "Mississippi",
+     "lat": 32.3113,
+     "long": -90.3972,
+     "zip": "39296"
+   },
+   {
+     "country": "Kentucky",
+     "lat": 37.9651,
+     "long": -84.4708,
+     "zip": "40515"
+   },
+   {
+     "country": "California",
+     "lat": 33.7866,
+     "long": -118.2987,
+     "zip": "91797"
+   },
+   {
+     "country": "California",
+     "lat": 37.7848,
+     "long": -122.7278,
+     "zip": "94137"
+   },
+   {
+     "country": "Nebraska",
+     "lat": 41.249,
+     "long": -96.0274,
+     "zip": "68197"
+   },
+   {
+     "country": "Alabama",
+     "lat": 33.5452,
+     "long": -86.6655,
+     "zip": "35210"
+   },
+   {
+     "country": "New York",
+     "lat": 43.1577,
+     "long": -77.608,
+     "zip": "14604"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 36.0641,
+     "long": -86.7697,
+     "zip": "37220"
+   },
+   {
+     "country": "California",
+     "lat": 37.9577,
+     "long": -121.2897,
+     "zip": "95298"
+   },
+   {
+     "country": "California",
+     "lat": 34.0324,
+     "long": -119.1343,
+     "zip": "93005"
+   },
+   {
+     "country": "New York",
+     "lat": 42.9335,
+     "long": -78.8115,
+     "zip": "14215"
+   },
+   {
+     "country": "Florida",
+     "lat": 26.0143,
+     "long": -81.5856,
+     "zip": "34114"
+   },
+   {
+     "country": "Oklahoma",
+     "lat": 35.3425,
+     "long": -97.6317,
+     "zip": "73173"
+   },
+   {
+     "country": "Illinois",
+     "lat": 41.8119,
+     "long": -87.6873,
+     "zip": "60078"
+   },
+   {
+     "country": "Wisconsin",
+     "lat": 42.7161,
+     "long": -87.8233,
+     "zip": "53405"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.8808,
+     "long": -77.113,
+     "zip": "22234"
+   },
+   {
+     "country": "California",
+     "lat": 33.7866,
+     "long": -118.2987,
+     "zip": "90847"
+   },
+   {
+     "country": "California",
+     "lat": 37.7848,
+     "long": -122.7278,
+     "zip": "94154"
+   },
+   {
+     "country": "Colorado",
+     "lat": 38.8247,
+     "long": -104.562,
+     "zip": "80940"
+   },
+   {
+     "country": "Colorado",
+     "lat": 39.734,
+     "long": -105.0259,
+     "zip": "80204"
+   },
+   {
+     "country": "California",
+     "lat": 33.7866,
+     "long": -118.2987,
+     "zip": "90087"
+   },
+   {
+     "country": "Texas",
+     "lat": 31.6948,
+     "long": -106.3,
+     "zip": "79977"
+   },
+   {
+     "country": "Georgia",
+     "lat": 33.8913,
+     "long": -84.0746,
+     "zip": "30356"
+   },
+   {
+     "country": "New York",
+     "lat": 40.6669,
+     "long": -73.9828,
+     "zip": "11215"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 35.2017,
+     "long": -89.9715,
+     "zip": "38168"
+   },
+   {
+     "country": "Virginia",
+     "lat": 36.7978,
+     "long": -76.1759,
+     "zip": "23464"
+   },
+   {
+     "country": "Nevada",
+     "lat": 35.9279,
+     "long": -114.9721,
+     "zip": "89036"
+   },
+   {
+     "country": "Maryland",
+     "lat": 39.2856,
+     "long": -76.6899,
+     "zip": "21229"
+   },
+   {
+     "country": "Wisconsin",
+     "lat": 44.5463,
+     "long": -88.1021,
+     "zip": "54313"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8933,
+     "long": -77.0146,
+     "zip": "20575"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.0018,
+     "long": -75.1179,
+     "zip": "19196"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.303,
+     "long": -76.8862,
+     "zip": "17110"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.8744,
+     "long": -95.5278,
+     "zip": "77040"
+   },
+   {
+     "country": "Nebraska",
+     "lat": 41.2335,
+     "long": -96.1188,
+     "zip": "68144"
+   },
+   {
+     "country": "Florida",
+     "lat": 28.0173,
+     "long": -82.7461,
+     "zip": "33763"
+   },
+   {
+     "country": "California",
+     "lat": 32.7423,
+     "long": -117.0947,
+     "zip": "92105"
+   },
+   {
+     "country": "Georgia",
+     "lat": 33.9367,
+     "long": -83.9573,
+     "zip": "30045"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8933,
+     "long": -77.0146,
+     "zip": "20580"
+   },
+   {
+     "country": "Arizona",
+     "lat": 33.2765,
+     "long": -112.1872,
+     "zip": "85271"
+   },
+   {
+     "country": "Wisconsin",
+     "lat": 43.0696,
+     "long": -89.4239,
+     "zip": "53726"
+   },
+   {
+     "country": "Arizona",
+     "lat": 33.2765,
+     "long": -112.1872,
+     "zip": "85030"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8933,
+     "long": -77.0146,
+     "zip": "20088"
+   },
+   {
+     "country": "New York",
+     "lat": 40.7069,
+     "long": -74.0082,
+     "zip": "10270"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.8318,
+     "long": -77.2888,
+     "zip": "22096"
+   },
+   {
+     "country": "Indiana",
+     "lat": 39.5327,
+     "long": -87.3255,
+     "zip": "47805"
+   },
+   {
+     "country": "Arizona",
+     "lat": 33.4061,
+     "long": -112.0265,
+     "zip": "85040"
+   },
+   {
+     "country": "California",
+     "lat": 33.7678,
+     "long": -118.1994,
+     "zip": "90831"
+   },
+   {
+     "country": "California",
+     "lat": 33.8635,
+     "long": -118.1801,
+     "zip": "90805"
+   },
+   {
+     "country": "Connecticut",
+     "lat": 41.1928,
+     "long": -73.2402,
+     "zip": "06825"
+   },
+   {
+     "country": "California",
+     "lat": 33.9583,
+     "long": -118.3258,
+     "zip": "90305"
+   },
+   {
+     "country": "Colorado",
+     "lat": 39.9807,
+     "long": -105.2531,
+     "zip": "80305"
+   },
+   {
+     "country": "Florida",
+     "lat": 29.0227,
+     "long": -81.1722,
+     "zip": "32123"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.0295,
+     "long": -102.0915,
+     "zip": "79705"
+   },
+   {
+     "country": "Oklahoma",
+     "lat": 35.5514,
+     "long": -97.4075,
+     "zip": "73147"
+   },
+   {
+     "country": "California",
+     "lat": 33.7866,
+     "long": -118.2987,
+     "zip": "90610"
+   },
+   {
+     "country": "Florida",
+     "lat": 28.5059,
+     "long": -82.4226,
+     "zip": "34605"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.4344,
+     "long": -80.0248,
+     "zip": "15134"
+   },
+   {
+     "country": "Iowa",
+     "lat": 42.0794,
+     "long": -91.5992,
+     "zip": "52410"
+   },
+   {
+     "country": "Ohio",
+     "lat": 41.6782,
+     "long": -83.4972,
+     "zip": "43656"
+   },
+   {
+     "country": "Michigan",
+     "lat": 43.0349,
+     "long": -83.6887,
+     "zip": "48550"
+   },
+   {
+     "country": "Kentucky",
+     "lat": 38.189,
+     "long": -85.6768,
+     "zip": "40293"
+   },
+   {
+     "country": "Michigan",
+     "lat": 43.0634,
+     "long": -83.7001,
+     "zip": "48505"
+   },
+   {
+     "country": "Louisiana",
+     "lat": 30.0071,
+     "long": -90.1094,
+     "zip": "70124"
+   },
+   {
+     "country": "Ohio",
+     "lat": 39.1696,
+     "long": -84.5478,
+     "zip": "45223"
+   },
+   {
+     "country": "Colorado",
+     "lat": 39.5437,
+     "long": -104.9691,
+     "zip": "80126"
+   },
+   {
+     "country": "Oklahoma",
+     "lat": 36.1499,
+     "long": -95.7923,
+     "zip": "74108"
+   },
+   {
+     "country": "Washington",
+     "lat": 47.6339,
+     "long": -122.3476,
+     "zip": "98109"
+   },
+   {
+     "country": "Alabama",
+     "lat": 32.2334,
+     "long": -86.2085,
+     "zip": "36119"
+   },
+   {
+     "country": "Virginia",
+     "lat": 37.5242,
+     "long": -77.4932,
+     "zip": "23272"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 35.9901,
+     "long": -83.9622,
+     "zip": "37995"
+   },
+   {
+     "country": "Wisconsin",
+     "lat": 43.0696,
+     "long": -89.4239,
+     "zip": "53790"
+   },
+   {
+     "country": "Nebraska",
+     "lat": 40.7845,
+     "long": -96.6888,
+     "zip": "68583"
+   },
+   {
+     "country": "Indiana",
+     "lat": 39.7038,
+     "long": -86.3029,
+     "zip": "46231"
+   },
+   {
+     "country": "New York",
+     "lat": 40.6913,
+     "long": -73.8059,
+     "zip": "11407"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 35.2017,
+     "long": -89.9715,
+     "zip": "38143"
+   },
+   {
+     "country": "Georgia",
+     "lat": 32.0391,
+     "long": -81.1242,
+     "zip": "31405"
+   },
+   {
+     "country": "Virginia",
+     "lat": 37.2327,
+     "long": -79.9463,
+     "zip": "24014"
+   },
+   {
+     "country": "Florida",
+     "lat": 30.329,
+     "long": -81.8176,
+     "zip": "32220"
+   },
+   {
+     "country": "Virginia",
+     "lat": 37.2742,
+     "long": -79.9579,
+     "zip": "24029"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.7673,
+     "long": -96.7776,
+     "zip": "75372"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.4375,
+     "long": -98.4616,
+     "zip": "78296"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 39.9496,
+     "long": -75.1637,
+     "zip": "19109"
+   },
+   {
+     "country": "Iowa",
+     "lat": 41.6727,
+     "long": -93.5722,
+     "zip": "50362"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.9007,
+     "long": -77.0431,
+     "zip": "20503"
+   },
+   {
+     "country": "New Mexico",
+     "lat": 35.6219,
+     "long": -105.8688,
+     "zip": "87505"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.9067,
+     "long": -77.0312,
+     "zip": "20005"
+   },
+   {
+     "country": "Nebraska",
+     "lat": 41.2955,
+     "long": -96.1008,
+     "zip": "68164"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.7714,
+     "long": -97.2915,
+     "zip": "76192"
+   },
+   {
+     "country": "Texas",
+     "lat": 30.0211,
+     "long": -94.1157,
+     "zip": "77705"
+   },
+   {
+     "country": "New Jersey",
+     "lat": 40.7918,
+     "long": -74.2452,
+     "zip": "07188"
+   },
+   {
+     "country": "California",
+     "lat": 33.7866,
+     "long": -118.2987,
+     "zip": "90060"
+   },
+   {
+     "country": "New York",
+     "lat": 40.8085,
+     "long": -73.9198,
+     "zip": "10454"
+   },
+   {
+     "country": "Alabama",
+     "lat": 34.734,
+     "long": -86.5229,
+     "zip": "35895"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.7714,
+     "long": -97.2915,
+     "zip": "76198"
+   },
+   {
+     "country": "Missouri",
+     "lat": 38.7196,
+     "long": -90.27,
+     "zip": "63136"
+   },
+   {
+     "country": "Iowa",
+     "lat": 41.5444,
+     "long": -93.6192,
+     "zip": "50315"
+   },
+   {
+     "country": "Minnesota",
+     "lat": 44.8055,
+     "long": -93.7665,
+     "zip": "55564"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.6889,
+     "long": -95.4341,
+     "zip": "77025"
+   },
+   {
+     "country": "California",
+     "lat": 33.754,
+     "long": -117.7919,
+     "zip": "92705"
+   },
+   {
+     "country": "Nebraska",
+     "lat": 40.8247,
+     "long": -96.6252,
+     "zip": "68505"
+   },
+   {
+     "country": "New York",
+     "lat": 40.7262,
+     "long": -73.9796,
+     "zip": "10009"
+   },
+   {
+     "country": "Massachusetts",
+     "lat": 42.36,
+     "long": -71.0545,
+     "zip": "02109"
+   },
+   {
+     "country": "New York",
+     "lat": 40.7808,
+     "long": -73.9772,
+     "zip": "10160"
+   },
+   {
+     "country": "New York",
+     "lat": 42.6149,
+     "long": -73.9708,
+     "zip": "12227"
+   },
+   {
+     "country": "Washington",
+     "lat": 47.6964,
+     "long": -117.4399,
+     "zip": "99205"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.7403,
+     "long": -96.5618,
+     "zip": "75185"
+   },
+   {
+     "country": "Illinois",
+     "lat": 42.3254,
+     "long": -89.1705,
+     "zip": "61105"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.2243,
+     "long": -94.9637,
+     "zip": "77554"
+   },
+   {
+     "country": "New York",
+     "lat": 42.7198,
+     "long": -73.8207,
+     "zip": "12205"
+   },
+   {
+     "country": "Illinois",
+     "lat": 41.8397,
+     "long": -88.0887,
+     "zip": "60567"
+   },
+   {
+     "country": "Kentucky",
+     "lat": 38.0702,
+     "long": -84.591,
+     "zip": "40510"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8976,
+     "long": -77.027,
+     "zip": "20530"
+   },
+   {
+     "country": "Texas",
+     "lat": 31.6948,
+     "long": -106.3,
+     "zip": "79923"
+   },
+   {
+     "country": "New York",
+     "lat": 43.0214,
+     "long": -76.1977,
+     "zip": "13217"
+   },
+   {
+     "country": "New Mexico",
+     "lat": 35.0443,
+     "long": -106.6729,
+     "zip": "87140"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.69,
+     "long": -96.9177,
+     "zip": "75236"
+   },
+   {
+     "country": "Michigan",
+     "lat": 43.4732,
+     "long": -83.9514,
+     "zip": "48604"
+   },
+   {
+     "country": "Nevada",
+     "lat": 36.2471,
+     "long": -115.221,
+     "zip": "89130"
+   },
+   {
+     "country": "Texas",
+     "lat": 35.4015,
+     "long": -101.8951,
+     "zip": "79105"
+   },
+   {
+     "country": "Virginia",
+     "lat": 37.5593,
+     "long": -77.4471,
+     "zip": "23208"
+   },
+   {
+     "country": "California",
+     "lat": 37.2602,
+     "long": -121.7709,
+     "zip": "95138"
+   },
+   {
+     "country": "Washington",
+     "lat": 47.1126,
+     "long": -122.7794,
+     "zip": "98516"
+   },
+   {
+     "country": "Nebraska",
+     "lat": 40.9317,
+     "long": -96.6045,
+     "zip": "68517"
+   },
+   {
+     "country": "Florida",
+     "lat": 29.0838,
+     "long": -81.0336,
+     "zip": "32128"
+   },
+   {
+     "country": "California",
+     "lat": 34.1781,
+     "long": -118.4574,
+     "zip": "91411"
+   },
+   {
+     "country": "Texas",
+     "lat": 33.0277,
+     "long": -96.6777,
+     "zip": "75074"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.8479,
+     "long": -96.974,
+     "zip": "75062"
+   },
+   {
+     "country": "Florida",
+     "lat": 30.2231,
+     "long": -81.7556,
+     "zip": "32244"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 42.1827,
+     "long": -80.0649,
+     "zip": "16550"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 35.0981,
+     "long": -89.9825,
+     "zip": "38114"
+   },
+   {
+     "country": "Ohio",
+     "lat": 39.9671,
+     "long": -83.0044,
+     "zip": "43215"
+   },
+   {
+     "country": "Texas",
+     "lat": 30.4501,
+     "long": -97.4865,
+     "zip": "78715"
+   },
+   {
+     "country": "New York",
+     "lat": 42.7684,
+     "long": -78.8871,
+     "zip": "14263"
+   },
+   {
+     "country": "Connecticut",
+     "lat": 41.3657,
+     "long": -72.9275,
+     "zip": "06721"
+   },
+   {
+     "country": "Illinois",
+     "lat": 41.5454,
+     "long": -88.1299,
+     "zip": "60435"
+   },
+   {
+     "country": "Texas",
+     "lat": 31.6948,
+     "long": -106.3,
+     "zip": "79945"
+   },
+   {
+     "country": "Virginia",
+     "lat": 37.5313,
+     "long": -77.4161,
+     "zip": "23242"
+   },
+   {
+     "country": "Florida",
+     "lat": 25.5593,
+     "long": -80.3483,
+     "zip": "33190"
+   },
+   {
+     "country": "Indiana",
+     "lat": 39.7795,
+     "long": -86.1328,
+     "zip": "46266"
+   },
+   {
+     "country": "Virginia",
+     "lat": 37.2742,
+     "long": -79.9579,
+     "zip": "24024"
+   },
+   {
+     "country": "Massachusetts",
+     "lat": 42.3615,
+     "long": -71.0604,
+     "zip": "02203"
+   },
+   {
+     "country": "South Carolina",
+     "lat": 34.006,
+     "long": -80.9708,
+     "zip": "29220"
+   },
+   {
+     "country": "Oregon",
+     "lat": 45.5137,
+     "long": -122.5569,
+     "zip": "97216"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8933,
+     "long": -77.0146,
+     "zip": "20508"
+   },
+   {
+     "country": "Washington",
+     "lat": 47.0662,
+     "long": -122.1132,
+     "zip": "98411"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8933,
+     "long": -77.0146,
+     "zip": "20041"
+   },
+   {
+     "country": "California",
+     "lat": 37.3729,
+     "long": -121.856,
+     "zip": "95133"
+   },
+   {
+     "country": "Illinois",
+     "lat": 40.1399,
+     "long": -88.1961,
+     "zip": "61825"
+   },
+   {
+     "country": "Georgia",
+     "lat": 33.786,
+     "long": -84.3514,
+     "zip": "30306"
+   },
+   {
+     "country": "Oregon",
+     "lat": 44.9364,
+     "long": -123.0381,
+     "zip": "97312"
+   },
+   {
+     "country": "Alabama",
+     "lat": 33.5446,
+     "long": -86.9292,
+     "zip": "35231"
+   },
+   {
+     "country": "Ohio",
+     "lat": 41.6767,
+     "long": -83.5573,
+     "zip": "43610"
+   },
+   {
+     "country": "West Virginia",
+     "lat": 38.2968,
+     "long": -81.5547,
+     "zip": "25336"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.3086,
+     "long": -76.8464,
+     "zip": "17140"
+   },
+   {
+     "country": "Idaho",
+     "lat": 43.4599,
+     "long": -116.244,
+     "zip": "83727"
+   },
+   {
+     "country": "Indiana",
+     "lat": 40.2023,
+     "long": -85.4082,
+     "zip": "47306"
+   },
+   {
+     "country": "Virginia",
+     "lat": 37.1959,
+     "long": -76.5248,
+     "zip": "23612"
+   },
+   {
+     "country": "California",
+     "lat": 34.169,
+     "long": -118.3442,
+     "zip": "91505"
+   },
+   {
+     "country": "New Jersey",
+     "lat": 40.9166,
+     "long": -74.174,
+     "zip": "07505"
+   },
+   {
+     "country": "Florida",
+     "lat": 26.6459,
+     "long": -80.4303,
+     "zip": "33499"
+   },
+   {
+     "country": "California",
+     "lat": 37.8044,
+     "long": -122.2698,
+     "zip": "94616"
+   },
+   {
+     "country": "Illinois",
+     "lat": 41.9229,
+     "long": -87.6483,
+     "zip": "60614"
+   },
+   {
+     "country": "Arizona",
+     "lat": 33.4368,
+     "long": -111.7129,
+     "zip": "85205"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.9,
+     "long": -77.0369,
+     "zip": "20062"
+   },
+   {
+     "country": "West Virginia",
+     "lat": 38.2968,
+     "long": -81.5547,
+     "zip": "25326"
+   },
+   {
+     "country": "Ohio",
+     "lat": 41.6782,
+     "long": -83.4972,
+     "zip": "43666"
+   },
+   {
+     "country": "Michigan",
+     "lat": 42.3809,
+     "long": -83.0409,
+     "zip": "48211"
+   },
+   {
+     "country": "California",
+     "lat": 33.7529,
+     "long": -116.0556,
+     "zip": "92878"
+   },
+   {
+     "country": "Ohio",
+     "lat": 40.8259,
+     "long": -81.3399,
+     "zip": "44705"
+   },
+   {
+     "country": "Massachusetts",
+     "lat": 42.3319,
+     "long": -71.254,
+     "zip": "02162"
+   },
+   {
+     "country": "Hawaii",
+     "lat": 21.2987,
+     "long": -157.6985,
+     "zip": "96825"
+   },
+   {
+     "country": "Virginia",
+     "lat": 37.5242,
+     "long": -77.4932,
+     "zip": "23293"
+   },
+   {
+     "country": "Florida",
+     "lat": 26.2288,
+     "long": -80.1635,
+     "zip": "33069"
+   },
+   {
+     "country": "Florida",
+     "lat": 30.3449,
+     "long": -81.6831,
+     "zip": "32230"
+   },
+   {
+     "country": "Massachusetts",
+     "lat": 42.2492,
+     "long": -71.8108,
+     "zip": "01610"
+   },
+   {
+     "country": "Florida",
+     "lat": 27.709,
+     "long": -80.5726,
+     "zip": "32964"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.7673,
+     "long": -96.7776,
+     "zip": "75397"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.6218,
+     "long": -95.4819,
+     "zip": "77085"
+   },
+   {
+     "country": "California",
+     "lat": 34.0515,
+     "long": -118.2559,
+     "zip": "90189"
+   },
+   {
+     "country": "Connecticut",
+     "lat": 41.7691,
+     "long": -72.701,
+     "zip": "06105"
+   },
+   {
+     "country": "Florida",
+     "lat": 25.9894,
+     "long": -80.2153,
+     "zip": "33023"
+   },
+   {
+     "country": "Georgia",
+     "lat": 33.8123,
+     "long": -84.2819,
+     "zip": "30033"
+   },
+   {
+     "country": "Minnesota",
+     "lat": 44.0225,
+     "long": -92.4668,
+     "zip": "55905"
+   },
+   {
+     "country": "Washington",
+     "lat": 47.7161,
+     "long": -122.3004,
+     "zip": "98175"
+   },
+   {
+     "country": "South Carolina",
+     "lat": 34.8497,
+     "long": -82.4538,
+     "zip": "29610"
+   },
+   {
+     "country": "Oregon",
+     "lat": 45.484,
+     "long": -122.5973,
+     "zip": "97206"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.834,
+     "long": -95.4342,
+     "zip": "77206"
+   },
+   {
+     "country": "Maryland",
+     "lat": 38.9982,
+     "long": -77.0338,
+     "zip": "20910"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.834,
+     "long": -95.4342,
+     "zip": "77218"
+   },
+   {
+     "country": "California",
+     "lat": 37.7848,
+     "long": -122.7278,
+     "zip": "94147"
+   },
+   {
+     "country": "Missouri",
+     "lat": 39.11,
+     "long": -94.4401,
+     "zip": "64054"
+   },
+   {
+     "country": "Wyoming",
+     "lat": 41.1084,
+     "long": -104.8107,
+     "zip": "82007"
+   },
+   {
+     "country": "Iowa",
+     "lat": 41.6727,
+     "long": -93.5722,
+     "zip": "50936"
+   },
+   {
+     "country": "Minnesota",
+     "lat": 44.8756,
+     "long": -93.2553,
+     "zip": "55423"
+   },
+   {
+     "country": "California",
+     "lat": 37.9625,
+     "long": -121.2624,
+     "zip": "95205"
+   },
+   {
+     "country": "California",
+     "lat": 33.7866,
+     "long": -118.2987,
+     "zip": "91131"
+   },
+   {
+     "country": "Minnesota",
+     "lat": 45.5289,
+     "long": -94.5933,
+     "zip": "56398"
+   },
+   {
+     "country": "Michigan",
+     "lat": 42.5991,
+     "long": -83.1789,
+     "zip": "48098"
+   },
+   {
+     "country": "Arkansas",
+     "lat": 34.6725,
+     "long": -92.3529,
+     "zip": "72209"
+   },
+   {
+     "country": "Minnesota",
+     "lat": 44.9762,
+     "long": -93.2759,
+     "zip": "55402"
+   },
+   {
+     "country": "Michigan",
+     "lat": 42.4981,
+     "long": -83.2058,
+     "zip": "48076"
+   },
+   {
+     "country": "Michigan",
+     "lat": 43.0113,
+     "long": -83.7108,
+     "zip": "48555"
+   },
+   {
+     "country": "Missouri",
+     "lat": 38.9033,
+     "long": -92.1022,
+     "zip": "65211"
+   },
+   {
+     "country": "Michigan",
+     "lat": 42.3349,
+     "long": -83.1801,
+     "zip": "48126"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8933,
+     "long": -77.0146,
+     "zip": "20392"
+   },
+   {
+     "country": "South Carolina",
+     "lat": 34.8882,
+     "long": -81.969,
+     "zip": "29319"
+   },
+   {
+     "country": "Colorado",
+     "lat": 39.7388,
+     "long": -104.4083,
+     "zip": "80279"
+   },
+   {
+     "country": "New York",
+     "lat": 40.7918,
+     "long": -73.9448,
+     "zip": "10029"
+   },
+   {
+     "country": "Minnesota",
+     "lat": 44.9034,
+     "long": -93.374,
+     "zip": "55436"
+   },
+   {
+     "country": "Nebraska",
+     "lat": 40.8529,
+     "long": -96.7943,
+     "zip": "68524"
+   },
+   {
+     "country": "Florida",
+     "lat": 27.2866,
+     "long": -82.477,
+     "zip": "34233"
+   },
+   {
+     "country": "Ohio",
+     "lat": 41.028,
+     "long": -81.4632,
+     "zip": "44315"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.9381,
+     "long": -77.086,
+     "zip": "20016"
+   },
+   {
+     "country": "Georgia",
+     "lat": 33.7629,
+     "long": -84.4226,
+     "zip": "31165"
+   },
+   {
+     "country": "Missouri",
+     "lat": 39.1042,
+     "long": -94.4923,
+     "zip": "64125"
+   },
+   {
+     "country": "Florida",
+     "lat": 27.872,
+     "long": -82.4388,
+     "zip": "33661"
+   },
+   {
+     "country": "Georgia",
+     "lat": 32.491,
+     "long": -84.8741,
+     "zip": "31914"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.8545,
+     "long": -77.052,
+     "zip": "22244"
+   },
+   {
+     "country": "New York",
+     "lat": 41.0247,
+     "long": -73.7781,
+     "zip": "10606"
+   },
+   {
+     "country": "Connecticut",
+     "lat": 41.0957,
+     "long": -73.4285,
+     "zip": "06854"
+   },
+   {
+     "country": "Arizona",
+     "lat": 33.5623,
+     "long": -112.0559,
+     "zip": "85020"
+   },
+   {
+     "country": "Arizona",
+     "lat": 33.6968,
+     "long": -111.8892,
+     "zip": "85255"
+   },
+   {
+     "country": "Florida",
+     "lat": 28.1147,
+     "long": -82.3678,
+     "zip": "33647"
+   },
+   {
+     "country": "California",
+     "lat": 37.799,
+     "long": -122.2337,
+     "zip": "94622"
+   },
+   {
+     "country": "Florida",
+     "lat": 25.9098,
+     "long": -80.3889,
+     "zip": "33018"
+   },
+   {
+     "country": "Ohio",
+     "lat": 39.9523,
+     "long": -83.078,
+     "zip": "43204"
+   },
+   {
+     "country": "Georgia",
+     "lat": 33.386,
+     "long": -82.091,
+     "zip": "30919"
+   },
+   {
+     "country": "Texas",
+     "lat": 30.3752,
+     "long": -97.9007,
+     "zip": "78732"
+   },
+   {
+     "country": "Indiana",
+     "lat": 39.849,
+     "long": -86.272,
+     "zip": "46254"
+   },
+   {
+     "country": "New York",
+     "lat": 40.7808,
+     "long": -73.9772,
+     "zip": "10249"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 36.0986,
+     "long": -86.8219,
+     "zip": "37215"
+   },
+   {
+     "country": "California",
+     "lat": 33.7541,
+     "long": -117.474,
+     "zip": "92883"
+   },
+   {
+     "country": "Oklahoma",
+     "lat": 36.1398,
+     "long": -96.0297,
+     "zip": "74141"
+   },
+   {
+     "country": "Ohio",
+     "lat": 41.076,
+     "long": -81.4644,
+     "zip": "44305"
+   },
+   {
+     "country": "South Carolina",
+     "lat": 32.7976,
+     "long": -79.9493,
+     "zip": "29403"
+   },
+   {
+     "country": "New York",
+     "lat": 40.7651,
+     "long": -73.9858,
+     "zip": "10019"
+   },
+   {
+     "country": "California",
+     "lat": 37.2568,
+     "long": -121.8896,
+     "zip": "95118"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.0422,
+     "long": -75.0244,
+     "zip": "19136"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.6934,
+     "long": -75.4712,
+     "zip": "18105"
+   },
+   {
+     "country": "Colorado",
+     "lat": 39.7388,
+     "long": -104.4083,
+     "zip": "80161"
+   },
+   {
+     "country": "Washington",
+     "lat": 47.6115,
+     "long": -122.1162,
+     "zip": "98008"
+   },
+   {
+     "country": "California",
+     "lat": 33.7866,
+     "long": -118.2987,
+     "zip": "91186"
+   },
+   {
+     "country": "Texas",
+     "lat": 31.6948,
+     "long": -106.3,
+     "zip": "79989"
+   },
+   {
+     "country": "Iowa",
+     "lat": 42.4011,
+     "long": -96.372,
+     "zip": "51110"
+   },
+   {
+     "country": "Florida",
+     "lat": 26.5354,
+     "long": -80.1124,
+     "zip": "33436"
+   },
+   {
+     "country": "South Carolina",
+     "lat": 33.6993,
+     "long": -81.6465,
+     "zip": "29805"
+   },
+   {
+     "country": "Virginia",
+     "lat": 37.5498,
+     "long": -77.4588,
+     "zip": "23220"
+   },
+   {
+     "country": "Michigan",
+     "lat": 42.2719,
+     "long": -83.1545,
+     "zip": "48217"
+   },
+   {
+     "country": "California",
+     "lat": 37.7509,
+     "long": -122.4153,
+     "zip": "94110"
+   },
+   {
+     "country": "Oregon",
+     "lat": 45.5806,
+     "long": -122.3748,
+     "zip": "97286"
+   },
+   {
+     "country": "South Carolina",
+     "lat": 33.9937,
+     "long": -81.0199,
+     "zip": "29208"
+   },
+   {
+     "country": "Texas",
+     "lat": 29.4375,
+     "long": -98.4616,
+     "zip": "78278"
+   },
+   {
+     "country": "Hawaii",
+     "lat": 21.3062,
+     "long": -157.8585,
+     "zip": "96810"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.0339,
+     "long": -78.4924,
+     "zip": "22903"
+   },
+   {
+     "country": "West Virginia",
+     "lat": 38.4096,
+     "long": -82.369,
+     "zip": "25705"
+   },
+   {
+     "country": "New Hampshire",
+     "lat": 43.0059,
+     "long": -71.0132,
+     "zip": "00214"
+   },
+   {
+     "country": "Texas",
+     "lat": 30.1288,
+     "long": -95.4239,
+     "zip": "77386"
+   },
+   {
+     "country": "Arizona",
+     "lat": 32.215,
+     "long": -110.7758,
+     "zip": "85748"
+   },
+   {
+     "country": "Massachusetts",
+     "lat": 42.3231,
+     "long": -71.0846,
+     "zip": "02119"
+   },
+   {
+     "country": "Georgia",
+     "lat": 33.9464,
+     "long": -83.9912,
+     "zip": "30245"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.0343,
+     "long": -75.1213,
+     "zip": "19120"
+   },
+   {
+     "country": "Florida",
+     "lat": 26.3771,
+     "long": -81.7334,
+     "zip": "34135"
+   },
+   {
+     "country": "Florida",
+     "lat": 29.6813,
+     "long": -82.3539,
+     "zip": "32610"
+   },
+   {
+     "country": "Ohio",
+     "lat": 39.7505,
+     "long": -84.2686,
+     "zip": "45490"
+   },
+   {
+     "country": "Mississippi",
+     "lat": 32.3218,
+     "long": -90.1771,
+     "zip": "39210"
+   },
+   {
+     "country": "Illinois",
+     "lat": 40.7857,
+     "long": -89.6177,
+     "zip": "61640"
+   },
+   {
+     "country": "New York",
+     "lat": 42.6568,
+     "long": -73.7605,
+     "zip": "12210"
+   },
+   {
+     "country": "Maryland",
+     "lat": 39.0668,
+     "long": -76.9969,
+     "zip": "20904"
+   },
+   {
+     "country": "Indiana",
+     "lat": 41.0938,
+     "long": -85.0707,
+     "zip": "46896"
+   },
+   {
+     "country": "Kansas",
+     "lat": 38.8999,
+     "long": -94.832,
+     "zip": "66276"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 36.3158,
+     "long": -82.3838,
+     "zip": "37605"
+   },
+   {
+     "country": "Connecticut",
+     "lat": 41.7918,
+     "long": -72.7188,
+     "zip": "06152"
+   },
+   {
+     "country": "Arkansas",
+     "lat": 34.7269,
+     "long": -92.344,
+     "zip": "72204"
+   },
+   {
+     "country": "Illinois",
+     "lat": 41.7458,
+     "long": -87.6054,
+     "zip": "60619"
+   },
+   {
+     "country": "Iowa",
+     "lat": 41.6727,
+     "long": -93.5722,
+     "zip": "50347"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 35.26,
+     "long": -80.8042,
+     "zip": "28220"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.7673,
+     "long": -96.7776,
+     "zip": "75387"
+   },
+   {
+     "country": "California",
+     "lat": 33.8994,
+     "long": -117.9063,
+     "zip": "92835"
+   },
+   {
+     "country": "New York",
+     "lat": 40.8662,
+     "long": -73.9221,
+     "zip": "10034"
+   },
+   {
+     "country": "Virginia",
+     "lat": 38.8318,
+     "long": -77.2888,
+     "zip": "22156"
+   },
+   {
+     "country": "Florida",
+     "lat": 29.6813,
+     "long": -82.3539,
+     "zip": "32627"
+   },
+   {
+     "country": "Missouri",
+     "lat": 38.6531,
+     "long": -90.2435,
+     "zip": "63196"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 35.2017,
+     "long": -89.9715,
+     "zip": "38161"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 40.5051,
+     "long": -80.1155,
+     "zip": "15225"
+   },
+   {
+     "country": "Florida",
+     "lat": 27.8918,
+     "long": -82.7248,
+     "zip": "33758"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 36.0275,
+     "long": -80.2073,
+     "zip": "27110"
+   },
+   {
+     "country": "New York",
+     "lat": 41.119,
+     "long": -73.733,
+     "zip": "10633"
+   },
+   {
+     "country": "California",
+     "lat": 33.9187,
+     "long": -117.8892,
+     "zip": "92822"
+   },
+   {
+     "country": "North Carolina",
+     "lat": 35.244,
+     "long": -80.7387,
+     "zip": "28215"
+   },
+   {
+     "country": "Pennsylvania",
+     "lat": 39.9473,
+     "long": -75.15,
+     "zip": "19172"
+   },
+   {
+     "country": "California",
+     "lat": 36.7464,
+     "long": -119.6397,
+     "zip": "93762"
+   },
+   {
+     "country": "Florida",
+     "lat": 26.6654,
+     "long": -80.0929,
+     "zip": "33416"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8933,
+     "long": -77.0146,
+     "zip": "20220"
+   },
+   {
+     "country": "Texas",
+     "lat": 31.6948,
+     "long": -106.3,
+     "zip": "88535"
+   },
+   {
+     "country": "South Carolina",
+     "lat": 32.7831,
+     "long": -79.937,
+     "zip": "29424"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.7673,
+     "long": -96.7776,
+     "zip": "75049"
+   },
+   {
+     "country": "Texas",
+     "lat": 32.7673,
+     "long": -96.7776,
+     "zip": "75342"
+   },
+   {
+     "country": "Massachusetts",
+     "lat": 42.362,
+     "long": -71.083,
+     "zip": "02142"
+   },
+   {
+     "country": "California",
+     "lat": 38.3774,
+     "long": -121.4444,
+     "zip": "94297"
+   },
+   {
+     "country": "California",
+     "lat": 38.5568,
+     "long": -121.4929,
+     "zip": "95818"
+   },
+   {
+     "country": "Florida",
+     "lat": 26.9668,
+     "long": -81.9545,
+     "zip": "33982"
+   },
+   {
+     "country": "Mississippi",
+     "lat": 32.3113,
+     "long": -90.3972,
+     "zip": "39236"
+   },
+   {
+     "country": "Florida",
+     "lat": 27.4272,
+     "long": -82.4387,
+     "zip": "34282"
+   },
+   {
+     "country": "Tennessee",
+     "lat": 35.9901,
+     "long": -83.9622,
+     "zip": "37939"
+   },
+   {
+     "country": "District of Columbia",
+     "lat": 38.8874,
+     "long": -77.0047,
+     "zip": "20557"
+   },
+   {
+     "country": "Ohio",
+     "lat": 39.1668,
+     "long": -84.5382,
+     "zip": "45254"
+   },
+   {
+     "country": "Ohio",
+     "lat": 39.7505,
+     "long": -84.2686,
+     "zip": "45454"
+   },
+   {
+     "country": "Texas",
+     "lat": 31.3902,
+     "long": -97.7993,
+     "zip": "76598"
+   }
+ ]
